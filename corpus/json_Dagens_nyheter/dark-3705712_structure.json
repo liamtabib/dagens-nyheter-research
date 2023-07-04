@@ -1,0 +1,5810 @@
+[
+  {
+    "@id": "https://betalab.kb.se/dark-3705712#1",
+    "@type": "Part",
+    "has_part": [
+      {
+        "@id": "https://betalab.kb.se/dark-3705712#1-1",
+        "@type": "Page",
+        "extracted_from": "bib13991099_19051204_0_12800B_0001_alto.xml",
+        "has_representation": [
+          "https://betalab.kb.se/dark-3705712/bib13991099_19051204_0_12800B_0001_alto.xml",
+          "https://betalab.kb.se/dark-3705712/bib13991099_19051204_0_12800B_0001.jp2"
+        ],
+        "width": "6107",
+        "height": "8715",
+        "has_part": [
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673239",
+            "@type": "Area",
+            "box": [
+              222,
+              502,
+              1559,
+              6381
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673239-ZONE525007398",
+                "@type": "Text",
+                "box": [
+                  295,
+                  6366,
+                  639,
+                  87
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673239-ZONE525007399",
+                "@type": "Text",
+                "box": [
+                  222,
+                  6503,
+                  783,
+                  381
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673239-ZONE525007400",
+                "@type": "Text",
+                "box": [
+                  998,
+                  502,
+                  783,
+                  1170
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240",
+            "@type": "Area",
+            "box": [
+              1007,
+              533,
+              1581,
+              4457
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007403",
+                "@type": "Text",
+                "box": [
+                  1803,
+                  533,
+                  776,
+                  63
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007404",
+                "@type": "Text",
+                "box": [
+                  1803,
+                  614,
+                  779,
+                  1055
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007409",
+                "@type": "Text",
+                "box": [
+                  1007,
+                  1665,
+                  1578,
+                  163
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007410",
+                "@type": "Text",
+                "box": [
+                  1007,
+                  1825,
+                  774,
+                  226
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007412",
+                "@type": "Text",
+                "box": [
+                  1809,
+                  1816,
+                  777,
+                  228
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007413",
+                "@type": "Text",
+                "box": [
+                  1216,
+                  2040,
+                  1369,
+                  81
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007414",
+                "@type": "Text",
+                "box": [
+                  1810,
+                  2116,
+                  777,
+                  154
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007415",
+                "@type": "Text",
+                "box": [
+                  1327,
+                  2265,
+                  1259,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007416",
+                "@type": "Text",
+                "box": [
+                  1010,
+                  2298,
+                  1578,
+                  209
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007418",
+                "@type": "Text",
+                "box": [
+                  1555,
+                  2493,
+                  1020,
+                  20
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007419",
+                "@type": "Text",
+                "box": [
+                  1050,
+                  2070,
+                  119,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007420",
+                "@type": "Text",
+                "box": [
+                  1009,
+                  2110,
+                  775,
+                  205
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007421",
+                "@type": "Text",
+                "box": [
+                  1012,
+                  2510,
+                  781,
+                  1343
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007428",
+                "@type": "Text",
+                "box": [
+                  1014,
+                  3980,
+                  782,
+                  120
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007430",
+                "@type": "Text",
+                "box": [
+                  1022,
+                  4111,
+                  776,
+                  613
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007431",
+                "@type": "Text",
+                "box": [
+                  1089,
+                  4738,
+                  711,
+                  39
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673240-ZONE525007432",
+                "@type": "Text",
+                "box": [
+                  1026,
+                  4787,
+                  774,
+                  203
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241",
+            "@type": "Area",
+            "box": [
+              1027,
+              371,
+              2389,
+              6517
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007433",
+                "@type": "Text",
+                "box": [
+                  1027,
+                  5114,
+                  774,
+                  122
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007434",
+                "@type": "Text",
+                "box": [
+                  1198,
+                  5258,
+                  417,
+                  34
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007435",
+                "@type": "Text",
+                "box": [
+                  1027,
+                  5311,
+                  781,
+                  1528
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007440",
+                "@type": "Text",
+                "box": [
+                  1812,
+                  2492,
+                  800,
+                  4396
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007448",
+                "@type": "Text",
+                "box": [
+                  2606,
+                  371,
+                  805,
+                  5444
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007455",
+                "@type": "Text",
+                "box": [
+                  3061,
+                  5822,
+                  313,
+                  38
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673241-ZONE525007456",
+                "@type": "Text",
+                "box": [
+                  2640,
+                  5962,
+                  776,
+                  309
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673242",
+            "@type": "Area",
+            "box": [
+              2641,
+              413,
+              1571,
+              6413
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673242-ZONE525007457",
+                "@type": "Text",
+                "box": [
+                  2761,
+                  6382,
+                  537,
+                  65
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673242-ZONE525007458",
+                "@type": "Text",
+                "box": [
+                  2641,
+                  6465,
+                  779,
+                  361
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673242-ZONE525007460",
+                "@type": "Text",
+                "box": [
+                  3413,
+                  413,
+                  778,
+                  1891
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673242-ZONE525007466",
+                "@type": "Text",
+                "box": [
+                  3420,
+                  2431,
+                  792,
+                  2751
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243",
+            "@type": "Area",
+            "box": [
+              231,
+              365,
+              5572,
+              8095
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007468",
+                "@type": "Text",
+                "box": [
+                  3470,
+                  5331,
+                  712,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007469",
+                "@type": "Text",
+                "box": [
+                  3758,
+                  5390,
+                  9,
+                  15
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007470",
+                "@type": "Text",
+                "box": [
+                  3658,
+                  5415,
+                  505,
+                  41
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007471",
+                "@type": "Text",
+                "box": [
+                  3440,
+                  5482,
+                  782,
+                  1399
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007476",
+                "@type": "Text",
+                "box": [
+                  544,
+                  7048,
+                  142,
+                  33
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007477",
+                "@type": "Text",
+                "box": [
+                  231,
+                  7097,
+                  781,
+                  989
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007483",
+                "@type": "Text",
+                "box": [
+                  272,
+                  8096,
+                  422,
+                  41
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007484",
+                "@type": "Text",
+                "box": [
+                  236,
+                  8142,
+                  779,
+                  317
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007487",
+                "@type": "Text",
+                "box": [
+                  1535,
+                  7045,
+                  142,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007488",
+                "@type": "Text",
+                "box": [
+                  1216,
+                  7093,
+                  779,
+                  722
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007491",
+                "@type": "Text",
+                "box": [
+                  1255,
+                  7822,
+                  389,
+                  33
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007492",
+                "@type": "Text",
+                "box": [
+                  1219,
+                  7868,
+                  778,
+                  591
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007497",
+                "@type": "Text",
+                "box": [
+                  2614,
+                  7040,
+                  142,
+                  26
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007498",
+                "@type": "Text",
+                "box": [
+                  2305,
+                  7087,
+                  775,
+                  578
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007503",
+                "@type": "Text",
+                "box": [
+                  2338,
+                  7679,
+                  488,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007504",
+                "@type": "Text",
+                "box": [
+                  2289,
+                  7721,
+                  790,
+                  180
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007506",
+                "@type": "Text",
+                "box": [
+                  2341,
+                  7908,
+                  270,
+                  38
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007507",
+                "@type": "Text",
+                "box": [
+                  2304,
+                  7952,
+                  778,
+                  454
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007512",
+                "@type": "Text",
+                "box": [
+                  2342,
+                  8410,
+                  410,
+                  40
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007513",
+                "@type": "Text",
+                "box": [
+                  3603,
+                  7040,
+                  89,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007514",
+                "@type": "Text",
+                "box": [
+                  3286,
+                  7084,
+                  779,
+                  1283
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007525",
+                "@type": "Text",
+                "box": [
+                  4017,
+                  8377,
+                  22,
+                  31
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007526",
+                "@type": "Text",
+                "box": [
+                  3319,
+                  8410,
+                  399,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007527",
+                "@type": "Text",
+                "box": [
+                  4207,
+                  365,
+                  826,
+                  7929
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007558",
+                "@type": "Text",
+                "box": [
+                  4866,
+                  8301,
+                  131,
+                  33
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007559",
+                "@type": "Text",
+                "box": [
+                  5188,
+                  393,
+                  420,
+                  53
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007560",
+                "@type": "Text",
+                "box": [
+                  5017,
+                  456,
+                  785,
+                  2481
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673243-ZONE525007569",
+                "@type": "Text",
+                "box": [
+                  5036,
+                  3067,
+                  766,
+                  168
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673244",
+            "@type": "Area",
+            "box": [
+              5097,
+              3391,
+              650,
+              1110
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673244-ZONE525007570",
+                "@type": "Text",
+                "box": [
+                  5166,
+                  3391,
+                  527,
+                  92
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673244-ZONE525007571",
+                "@type": "Text",
+                "box": [
+                  5205,
+                  3570,
+                  543,
+                  141
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673244-ZONE525007572",
+                "@type": "Text",
+                "box": [
+                  5097,
+                  3719,
+                  632,
+                  782
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673245",
+            "@type": "Area",
+            "box": [
+              5067,
+              4516,
+              722,
+              776
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673245-ZONE525007576",
+                "@type": "Text",
+                "box": [
+                  5081,
+                  4516,
+                  570,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673245-ZONE525007577",
+                "@type": "Text",
+                "box": [
+                  5280,
+                  4582,
+                  187,
+                  25
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673245-ZONE525007578",
+                "@type": "Text",
+                "box": [
+                  5067,
+                  4679,
+                  722,
+                  614
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673246",
+            "@type": "Area",
+            "box": [
+              5045,
+              5318,
+              774,
+              602
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673246-ZONE525007585",
+                "@type": "Text",
+                "box": [
+                  5104,
+                  5318,
+                  657,
+                  167
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673246-ZONE525007586",
+                "@type": "Text",
+                "box": [
+                  5045,
+                  5481,
+                  774,
+                  257
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673246-ZONE525007589",
+                "@type": "Text",
+                "box": [
+                  5050,
+                  5752,
+                  770,
+                  168
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673247",
+            "@type": "Area",
+            "box": [
+              5051,
+              5927,
+              772,
+              407
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673247-ZONE525007591",
+                "@type": "Text",
+                "box": [
+                  5083,
+                  5927,
+                  704,
+                  146
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673247-ZONE525007592",
+                "@type": "Text",
+                "box": [
+                  5054,
+                  6114,
+                  769,
+                  74
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673247-ZONE525007593",
+                "@type": "Text",
+                "box": [
+                  5051,
+                  6181,
+                  771,
+                  154
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673248",
+            "@type": "Area",
+            "box": [
+              5051,
+              6342,
+              772,
+              317
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673248-ZONE525007595",
+                "@type": "Text",
+                "box": [
+                  5052,
+                  6342,
+                  769,
+                  86
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673248-ZONE525007596",
+                "@type": "Text",
+                "box": [
+                  5051,
+                  6434,
+                  772,
+                  223
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673249",
+            "@type": "Area",
+            "box": [
+              5056,
+              6662,
+              769,
+              211
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673249-ZONE525007597",
+                "@type": "Text",
+                "box": [
+                  5100,
+                  6662,
+                  679,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673249-ZONE525007598",
+                "@type": "Text",
+                "box": [
+                  5056,
+                  6728,
+                  769,
+                  73
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673249-ZONE525007599",
+                "@type": "Text",
+                "box": [
+                  5227,
+                  6811,
+                  596,
+                  63
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673250",
+            "@type": "Area",
+            "box": [
+              5051,
+              6811,
+              776,
+              348
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673250-ZONE525007600",
+                "@type": "Text",
+                "box": [
+                  5054,
+                  6811,
+                  143,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673250-ZONE525007601",
+                "@type": "Text",
+                "box": [
+                  5051,
+                  6883,
+                  776,
+                  278
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251",
+            "@type": "Area",
+            "box": [
+              5057,
+              7190,
+              779,
+              1221
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007604",
+                "@type": "Text",
+                "box": [
+                  5057,
+                  7190,
+                  535,
+                  79
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007605",
+                "@type": "Text",
+                "box": [
+                  5116,
+                  7242,
+                  715,
+                  99
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007606",
+                "@type": "Text",
+                "box": [
+                  5058,
+                  7332,
+                  772,
+                  133
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007607",
+                "@type": "Text",
+                "box": [
+                  5135,
+                  7476,
+                  634,
+                  87
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007608",
+                "@type": "Text",
+                "box": [
+                  5057,
+                  7561,
+                  775,
+                  248
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007612",
+                "@type": "Text",
+                "box": [
+                  5357,
+                  7835,
+                  475,
+                  281
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-IMAGE1",
+                "@type": "Image",
+                "box": [
+                  5062,
+                  7823,
+                  279,
+                  309
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007615",
+                "@type": "Text",
+                "box": [
+                  5297,
+                  8163,
+                  309,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007616",
+                "@type": "Text",
+                "box": [
+                  5175,
+                  8200,
+                  544,
+                  34
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673251-ZONE525007617",
+                "@type": "Text",
+                "box": [
+                  5063,
+                  8232,
+                  774,
+                  180
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238",
+            "@type": "Area",
+            "box": [
+              198,
+              244,
+              3505,
+              5952
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007383",
+                "@type": "Text",
+                "box": [
+                  198,
+                  272,
+                  318,
+                  57
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007384",
+                "@type": "Text",
+                "box": [
+                  266,
+                  342,
+                  189,
+                  109
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007385",
+                "@type": "Text",
+                "box": [
+                  586,
+                  253,
+                  1989,
+                  188
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007386",
+                "@type": "Text",
+                "box": [
+                  2584,
+                  244,
+                  1120,
+                  74
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007387",
+                "@type": "Text",
+                "box": [
+                  203,
+                  497,
+                  759,
+                  144
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007388",
+                "@type": "Text",
+                "box": [
+                  282,
+                  791,
+                  603,
+                  110
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007389",
+                "@type": "Text",
+                "box": [
+                  330,
+                  942,
+                  508,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-1-ARTICLE54673238-ZONE525007390",
+                "@type": "Text",
+                "box": [
+                  202,
+                  1005,
+                  796,
+                  5192
+                ],
+                "has_part": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@id": "https://betalab.kb.se/dark-3705712#1-2",
+        "@type": "Page",
+        "extracted_from": "bib13991099_19051204_0_12800B_0002_alto.xml",
+        "has_representation": [
+          "https://betalab.kb.se/dark-3705712/bib13991099_19051204_0_12800B_0002_alto.xml",
+          "https://betalab.kb.se/dark-3705712/bib13991099_19051204_0_12800B_0002.jp2"
+        ],
+        "width": "6167",
+        "height": "8705",
+        "has_part": [
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931",
+            "@type": "Area",
+            "box": [
+              373,
+              265,
+              3734,
+              581
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931-ZONE524968037",
+                "@type": "Text",
+                "box": [
+                  2267,
+                  265,
+                  1841,
+                  71
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931-IMAGE1",
+                "@type": "Image",
+                "box": [
+                  386,
+                  376,
+                  188,
+                  132
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931-IMAGE2",
+                "@type": "Image",
+                "box": [
+                  948,
+                  376,
+                  185,
+                  133
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931-ZONE524968043",
+                "@type": "Text",
+                "box": [
+                  602,
+                  376,
+                  317,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668931-ZONE524968044",
+                "@type": "Text",
+                "box": [
+                  373,
+                  498,
+                  815,
+                  347
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668932",
+            "@type": "Area",
+            "box": [
+              371,
+              865,
+              780,
+              411
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668932-ZONE524968052",
+                "@type": "Text",
+                "box": [
+                  436,
+                  865,
+                  654,
+                  80
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668932-ZONE524968053",
+                "@type": "Text",
+                "box": [
+                  372,
+                  952,
+                  776,
+                  159
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668932-ZONE524968054",
+                "@type": "Text",
+                "box": [
+                  372,
+                  1123,
+                  780,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668932-ZONE524968055",
+                "@type": "Text",
+                "box": [
+                  371,
+                  1173,
+                  778,
+                  102
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933",
+            "@type": "Area",
+            "box": [
+              369,
+              1287,
+              782,
+              622
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933-ZONE524968056",
+                "@type": "Text",
+                "box": [
+                  374,
+                  1295,
+                  304,
+                  104
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933-ZONE524968057",
+                "@type": "Text",
+                "box": [
+                  702,
+                  1287,
+                  450,
+                  128
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933-ZONE524968058",
+                "@type": "Text",
+                "box": [
+                  369,
+                  1429,
+                  782,
+                  335
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933-ZONE524968064",
+                "@type": "Text",
+                "box": [
+                  408,
+                  1780,
+                  710,
+                  59
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668933-ZONE524968065",
+                "@type": "Text",
+                "box": [
+                  371,
+                  1844,
+                  765,
+                  65
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668934",
+            "@type": "Area",
+            "box": [
+              364,
+              1942,
+              784,
+              511
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668934-ZONE524968066",
+                "@type": "Text",
+                "box": [
+                  418,
+                  1942,
+                  686,
+                  80
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668934-ZONE524968067",
+                "@type": "Text",
+                "box": [
+                  364,
+                  2027,
+                  784,
+                  428
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935",
+            "@type": "Area",
+            "box": [
+              1178,
+              370,
+              780,
+              969
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968068",
+                "@type": "Text",
+                "box": [
+                  1290,
+                  370,
+                  560,
+                  112
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968069",
+                "@type": "Text",
+                "box": [
+                  1178,
+                  501,
+                  780,
+                  357
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968073",
+                "@type": "Text",
+                "box": [
+                  1291,
+                  872,
+                  559,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968074",
+                "@type": "Text",
+                "box": [
+                  1179,
+                  928,
+                  778,
+                  206
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968077",
+                "@type": "Text",
+                "box": [
+                  1182,
+                  1149,
+                  772,
+                  98
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668935-ZONE524968078",
+                "@type": "Text",
+                "box": [
+                  1332,
+                  1280,
+                  485,
+                  59
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668936",
+            "@type": "Area",
+            "box": [
+              1176,
+              1348,
+              781,
+              338
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668936-ZONE524968079",
+                "@type": "Text",
+                "box": [
+                  1176,
+                  1348,
+                  780,
+                  128
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668936-ZONE524968080",
+                "@type": "Text",
+                "box": [
+                  1178,
+                  1480,
+                  780,
+                  206
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937",
+            "@type": "Area",
+            "box": [
+              366,
+              1694,
+              1592,
+              1115
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968083",
+                "@type": "Text",
+                "box": [
+                  1184,
+                  1694,
+                  774,
+                  74
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968084",
+                "@type": "Text",
+                "box": [
+                  1178,
+                  1772,
+                  776,
+                  98
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968087",
+                "@type": "Text",
+                "box": [
+                  568,
+                  2476,
+                  386,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968088",
+                "@type": "Text",
+                "box": [
+                  370,
+                  2524,
+                  771,
+                  93
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968089",
+                "@type": "Text",
+                "box": [
+                  584,
+                  2640,
+                  354,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668937-ZONE524968090",
+                "@type": "Text",
+                "box": [
+                  366,
+                  2675,
+                  776,
+                  133
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668938",
+            "@type": "Area",
+            "box": [
+              363,
+              2844,
+              780,
+              802
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668938-ZONE524968091",
+                "@type": "Text",
+                "box": [
+                  493,
+                  2844,
+                  526,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668938-ZONE524968092",
+                "@type": "Text",
+                "box": [
+                  363,
+                  2934,
+                  780,
+                  712
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668939",
+            "@type": "Area",
+            "box": [
+              360,
+              3670,
+              780,
+              462
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668939-ZONE524968102",
+                "@type": "Text",
+                "box": [
+                  428,
+                  3670,
+                  660,
+                  96
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668939-ZONE524968103",
+                "@type": "Text",
+                "box": [
+                  360,
+                  3764,
+                  780,
+                  369
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668940",
+            "@type": "Area",
+            "box": [
+              356,
+              4147,
+              784,
+              347
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668940-ZONE524968106",
+                "@type": "Text",
+                "box": [
+                  442,
+                  4147,
+                  608,
+                  79
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668940-ZONE524968107",
+                "@type": "Text",
+                "box": [
+                  356,
+                  4232,
+                  783,
+                  262
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668940-ZONE524968109",
+                "@type": "Text",
+                "box": [
+                  356,
+                  4400,
+                  387,
+                  30
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941",
+            "@type": "Area",
+            "box": [
+              347,
+              4518,
+              787,
+              1480
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968111",
+                "@type": "Text",
+                "box": [
+                  356,
+                  4518,
+                  776,
+                  115
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968112",
+                "@type": "Text",
+                "box": [
+                  356,
+                  4635,
+                  778,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968113",
+                "@type": "Text",
+                "box": [
+                  605,
+                  4696,
+                  282,
+                  26
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968114",
+                "@type": "Text",
+                "box": [
+                  356,
+                  4848,
+                  775,
+                  234
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968118",
+                "@type": "Text",
+                "box": [
+                  504,
+                  5094,
+                  476,
+                  53
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668941-ZONE524968119",
+                "@type": "Text",
+                "box": [
+                  347,
+                  5158,
+                  781,
+                  840
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942",
+            "@type": "Area",
+            "box": [
+              1171,
+              378,
+              2407,
+              2834
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968127",
+                "@type": "Text",
+                "box": [
+                  1202,
+                  1886,
+                  734,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968128",
+                "@type": "Text",
+                "box": [
+                  1282,
+                  1980,
+                  581,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968129",
+                "@type": "Text",
+                "box": [
+                  1173,
+                  2029,
+                  782,
+                  532
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968135",
+                "@type": "Text",
+                "box": [
+                  1263,
+                  2580,
+                  163,
+                  24
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968136",
+                "@type": "Text",
+                "box": [
+                  1553,
+                  2581,
+                  80,
+                  22
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968137",
+                "@type": "Text",
+                "box": [
+                  1760,
+                  2581,
+                  176,
+                  24
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968138",
+                "@type": "Text",
+                "box": [
+                  1277,
+                  2629,
+                  568,
+                  65
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968139",
+                "@type": "Text",
+                "box": [
+                  1365,
+                  2714,
+                  185,
+                  24
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968140",
+                "@type": "Text",
+                "box": [
+                  1658,
+                  2717,
+                  93,
+                  22
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968141",
+                "@type": "Text",
+                "box": [
+                  1171,
+                  2763,
+                  715,
+                  449
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-IMAGE3",
+                "@type": "Image",
+                "box": [
+                  1800,
+                  2894,
+                  141,
+                  308
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968147",
+                "@type": "Text",
+                "box": [
+                  2092,
+                  395,
+                  578,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968148",
+                "@type": "Text",
+                "box": [
+                  1988,
+                  457,
+                  777,
+                  618
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968152",
+                "@type": "Text",
+                "box": [
+                  2100,
+                  1090,
+                  565,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968153",
+                "@type": "Text",
+                "box": [
+                  1988,
+                  1148,
+                  772,
+                  93
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968154",
+                "@type": "Text",
+                "box": [
+                  2167,
+                  1264,
+                  421,
+                  53
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968155",
+                "@type": "Text",
+                "box": [
+                  1987,
+                  1328,
+                  774,
+                  317
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968159",
+                "@type": "Text",
+                "box": [
+                  2198,
+                  1678,
+                  364,
+                  57
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968160",
+                "@type": "Text",
+                "box": [
+                  1986,
+                  1745,
+                  777,
+                  247
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968162",
+                "@type": "Text",
+                "box": [
+                  2972,
+                  378,
+                  437,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968163",
+                "@type": "Text",
+                "box": [
+                  2795,
+                  438,
+                  783,
+                  215
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668942-ZONE524968166",
+                "@type": "Text",
+                "box": [
+                  2958,
+                  672,
+                  459,
+                  82
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668943",
+            "@type": "Area",
+            "box": [
+              2792,
+              764,
+              764,
+              201
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668943-ZONE524968167",
+                "@type": "Text",
+                "box": [
+                  2816,
+                  764,
+                  741,
+                  100
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668943-ZONE524968168",
+                "@type": "Text",
+                "box": [
+                  2792,
+                  889,
+                  239,
+                  38
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668943-ZONE524968169",
+                "@type": "Text",
+                "box": [
+                  2994,
+                  924,
+                  536,
+                  41
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944",
+            "@type": "Area",
+            "box": [
+              2792,
+              970,
+              781,
+              446
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968170",
+                "@type": "Text",
+                "box": [
+                  2873,
+                  989,
+                  236,
+                  115
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-IMAGE4",
+                "@type": "Image",
+                "box": [
+                  3173,
+                  970,
+                  400,
+                  126
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-IMAGE5",
+                "@type": "Image",
+                "box": [
+                  3415,
+                  1096,
+                  34,
+                  2
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968175",
+                "@type": "Text",
+                "box": [
+                  2792,
+                  1099,
+                  780,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968176",
+                "@type": "Text",
+                "box": [
+                  3453,
+                  1096,
+                  120,
+                  26
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968178",
+                "@type": "Text",
+                "box": [
+                  2796,
+                  1171,
+                  776,
+                  107
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968179",
+                "@type": "Text",
+                "box": [
+                  3023,
+                  1289,
+                  322,
+                  45
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968180",
+                "@type": "Text",
+                "box": [
+                  2797,
+                  1344,
+                  651,
+                  72
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668944-ZONE524968181",
+                "@type": "Text",
+                "box": [
+                  3473,
+                  1342,
+                  96,
+                  24
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945",
+            "@type": "Area",
+            "box": [
+              1975,
+              1494,
+              1597,
+              2266
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968182",
+                "@type": "Text",
+                "box": [
+                  2796,
+                  1494,
+                  776,
+                  198
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968183",
+                "@type": "Text",
+                "box": [
+                  3045,
+                  1695,
+                  273,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968184",
+                "@type": "Text",
+                "box": [
+                  2794,
+                  1728,
+                  780,
+                  103
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968186",
+                "@type": "Text",
+                "box": [
+                  2199,
+                  2006,
+                  356,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968187",
+                "@type": "Text",
+                "box": [
+                  1984,
+                  2043,
+                  777,
+                  334
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968188",
+                "@type": "Text",
+                "box": [
+                  2013,
+                  2382,
+                  454,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968189",
+                "@type": "Text",
+                "box": [
+                  1990,
+                  2430,
+                  317,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968190",
+                "@type": "Text",
+                "box": [
+                  2340,
+                  2457,
+                  374,
+                  31
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968191",
+                "@type": "Text",
+                "box": [
+                  1986,
+                  2501,
+                  765,
+                  58
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968192",
+                "@type": "Text",
+                "box": [
+                  2104,
+                  2571,
+                  533,
+                  44
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668945-ZONE524968193",
+                "@type": "Text",
+                "box": [
+                  1975,
+                  2622,
+                  783,
+                  1137
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668946",
+            "@type": "Area",
+            "box": [
+              1168,
+              3231,
+              778,
+              335
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668946-ZONE524968197",
+                "@type": "Text",
+                "box": [
+                  1168,
+                  3236,
+                  211,
+                  232
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668946-ZONE524968198",
+                "@type": "Text",
+                "box": [
+                  1198,
+                  3475,
+                  190,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668946-ZONE524968199",
+                "@type": "Text",
+                "box": [
+                  1391,
+                  3231,
+                  555,
+                  335
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947",
+            "@type": "Area",
+            "box": [
+              1168,
+              3584,
+              780,
+              614
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968203",
+                "@type": "Text",
+                "box": [
+                  1172,
+                  3584,
+                  514,
+                  80
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968204",
+                "@type": "Text",
+                "box": [
+                  1168,
+                  3668,
+                  780,
+                  60
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968205",
+                "@type": "Text",
+                "box": [
+                  1506,
+                  3750,
+                  409,
+                  53
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968206",
+                "@type": "Text",
+                "box": [
+                  1184,
+                  3767,
+                  69,
+                  34
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968208",
+                "@type": "Text",
+                "box": [
+                  1185,
+                  3799,
+                  737,
+                  104
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968221",
+                "@type": "Text",
+                "box": [
+                  1185,
+                  3903,
+                  47,
+                  22
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968222",
+                "@type": "Text",
+                "box": [
+                  1254,
+                  4015,
+                  604,
+                  154
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668947-ZONE524968225",
+                "@type": "Text",
+                "box": [
+                  1377,
+                  4171,
+                  364,
+                  28
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948",
+            "@type": "Area",
+            "box": [
+              1165,
+              3773,
+              1586,
+              742
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968226",
+                "@type": "Text",
+                "box": [
+                  1224,
+                  4261,
+                  652,
+                  136
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968227",
+                "@type": "Text",
+                "box": [
+                  1511,
+                  4399,
+                  94,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968228",
+                "@type": "Text",
+                "box": [
+                  1165,
+                  4426,
+                  777,
+                  57
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968229",
+                "@type": "Text",
+                "box": [
+                  1440,
+                  4485,
+                  472,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968230",
+                "@type": "Text",
+                "box": [
+                  2254,
+                  3773,
+                  230,
+                  37
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668948-ZONE524968231",
+                "@type": "Text",
+                "box": [
+                  1958,
+                  3826,
+                  793,
+                  167
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949",
+            "@type": "Area",
+            "box": [
+              1162,
+              4550,
+              774,
+              574
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949-ZONE524968233",
+                "@type": "Text",
+                "box": [
+                  1234,
+                  4550,
+                  650,
+                  132
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949-ZONE524968234",
+                "@type": "Text",
+                "box": [
+                  1291,
+                  4693,
+                  522,
+                  102
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949-ZONE524968236",
+                "@type": "Text",
+                "box": [
+                  1465,
+                  4817,
+                  170,
+                  94
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949-ZONE524968237",
+                "@type": "Text",
+                "box": [
+                  1162,
+                  4933,
+                  774,
+                  65
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668949-IMAGE6",
+                "@type": "Image",
+                "box": [
+                  1264,
+                  5019,
+                  167,
+                  106
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668950",
+            "@type": "Area",
+            "box": [
+              1158,
+              5019,
+              778,
+              369
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668950-ZONE524968239",
+                "@type": "Text",
+                "box": [
+                  1484,
+                  5019,
+                  346,
+                  132
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668950-ZONE524968240",
+                "@type": "Text",
+                "box": [
+                  1159,
+                  5158,
+                  777,
+                  83
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668950-ZONE524968241",
+                "@type": "Text",
+                "box": [
+                  1309,
+                  5265,
+                  481,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668950-ZONE524968242",
+                "@type": "Text",
+                "box": [
+                  1158,
+                  5321,
+                  775,
+                  65
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668951",
+            "@type": "Area",
+            "box": [
+              344,
+              5426,
+              1570,
+              1197
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668951-ZONE524968243",
+                "@type": "Text",
+                "box": [
+                  1182,
+                  5426,
+                  732,
+                  107
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668951-ZONE524968244",
+                "@type": "Text",
+                "box": [
+                  1169,
+                  5547,
+                  609,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668951-ZONE524968245",
+                "@type": "Text",
+                "box": [
+                  1423,
+                  5612,
+                  247,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668951-ZONE524968246",
+                "@type": "Text",
+                "box": [
+                  344,
+                  6167,
+                  778,
+                  457
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952",
+            "@type": "Area",
+            "box": [
+              338,
+              6644,
+              782,
+              1139
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968249",
+                "@type": "Text",
+                "box": [
+                  448,
+                  6644,
+                  560,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968250",
+                "@type": "Text",
+                "box": [
+                  343,
+                  6740,
+                  774,
+                  333
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968251",
+                "@type": "Text",
+                "box": [
+                  480,
+                  7091,
+                  524,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968252",
+                "@type": "Text",
+                "box": [
+                  341,
+                  7146,
+                  780,
+                  94
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968253",
+                "@type": "Text",
+                "box": [
+                  606,
+                  7256,
+                  254,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968254",
+                "@type": "Text",
+                "box": [
+                  338,
+                  7295,
+                  777,
+                  98
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968255",
+                "@type": "Text",
+                "box": [
+                  442,
+                  7418,
+                  576,
+                  155
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968256",
+                "@type": "Text",
+                "box": [
+                  338,
+                  7473,
+                  780,
+                  31
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968258",
+                "@type": "Text",
+                "box": [
+                  340,
+                  7577,
+                  771,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968259",
+                "@type": "Text",
+                "box": [
+                  532,
+                  7661,
+                  395,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668952-ZONE524968260",
+                "@type": "Text",
+                "box": [
+                  339,
+                  7717,
+                  775,
+                  67
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953",
+            "@type": "Area",
+            "box": [
+              332,
+              5669,
+              1602,
+              2772
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968261",
+                "@type": "Text",
+                "box": [
+                  470,
+                  7810,
+                  522,
+                  141
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968262",
+                "@type": "Text",
+                "box": [
+                  332,
+                  7959,
+                  784,
+                  482
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968267",
+                "@type": "Text",
+                "box": [
+                  1156,
+                  5669,
+                  777,
+                  65
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968268",
+                "@type": "Text",
+                "box": [
+                  1285,
+                  5759,
+                  530,
+                  47
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968269",
+                "@type": "Text",
+                "box": [
+                  1156,
+                  5816,
+                  767,
+                  94
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968270",
+                "@type": "Text",
+                "box": [
+                  1152,
+                  6036,
+                  777,
+                  102
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968271",
+                "@type": "Text",
+                "box": [
+                  1262,
+                  6171,
+                  555,
+                  44
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968272",
+                "@type": "Text",
+                "box": [
+                  1153,
+                  6226,
+                  772,
+                  163
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968273",
+                "@type": "Text",
+                "box": [
+                  1207,
+                  6410,
+                  661,
+                  60
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968274",
+                "@type": "Text",
+                "box": [
+                  1153,
+                  6474,
+                  772,
+                  66
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968275",
+                "@type": "Text",
+                "box": [
+                  1370,
+                  6573,
+                  346,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968276",
+                "@type": "Text",
+                "box": [
+                  1152,
+                  6639,
+                  595,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968277",
+                "@type": "Text",
+                "box": [
+                  1148,
+                  6695,
+                  678,
+                  180
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668953-ZONE524968278",
+                "@type": "Text",
+                "box": [
+                  1452,
+                  6879,
+                  437,
+                  35
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668954",
+            "@type": "Area",
+            "box": [
+              1147,
+              6955,
+              784,
+              408
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668954-ZONE524968279",
+                "@type": "Text",
+                "box": [
+                  1154,
+                  6955,
+                  774,
+                  78
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668954-ZONE524968280",
+                "@type": "Text",
+                "box": [
+                  1147,
+                  7035,
+                  784,
+                  327
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955",
+            "@type": "Area",
+            "box": [
+              1146,
+              4013,
+              1602,
+              4179
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968284",
+                "@type": "Text",
+                "box": [
+                  1202,
+                  7386,
+                  670,
+                  130
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968285",
+                "@type": "Text",
+                "box": [
+                  1146,
+                  7549,
+                  780,
+                  643
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968287",
+                "@type": "Text",
+                "box": [
+                  2176,
+                  4013,
+                  383,
+                  45
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968288",
+                "@type": "Text",
+                "box": [
+                  1975,
+                  4067,
+                  771,
+                  100
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968289",
+                "@type": "Text",
+                "box": [
+                  2164,
+                  4186,
+                  402,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968290",
+                "@type": "Text",
+                "box": [
+                  1971,
+                  4244,
+                  776,
+                  206
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668955-ZONE524968292",
+                "@type": "Text",
+                "box": [
+                  2476,
+                  4447,
+                  269,
+                  27
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956",
+            "@type": "Area",
+            "box": [
+              1957,
+              384,
+              2426,
+              5814
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968293",
+                "@type": "Text",
+                "box": [
+                  2186,
+                  4604,
+                  358,
+                  78
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968294",
+                "@type": "Text",
+                "box": [
+                  2169,
+                  4755,
+                  380,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968295",
+                "@type": "Text",
+                "box": [
+                  1963,
+                  4819,
+                  784,
+                  889
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968307",
+                "@type": "Text",
+                "box": [
+                  2133,
+                  5739,
+                  459,
+                  45
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968308",
+                "@type": "Text",
+                "box": [
+                  1957,
+                  5796,
+                  787,
+                  402
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968310",
+                "@type": "Text",
+                "box": [
+                  2791,
+                  1893,
+                  780,
+                  477
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968315",
+                "@type": "Text",
+                "box": [
+                  2789,
+                  2371,
+                  87,
+                  25
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968316",
+                "@type": "Text",
+                "box": [
+                  3603,
+                  384,
+                  781,
+                  835
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968325",
+                "@type": "Text",
+                "box": [
+                  3600,
+                  1243,
+                  780,
+                  169
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968328",
+                "@type": "Text",
+                "box": [
+                  3837,
+                  1452,
+                  58,
+                  86
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968329",
+                "@type": "Text",
+                "box": [
+                  4276,
+                  1451,
+                  28,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668956-ZONE524968330",
+                "@type": "Text",
+                "box": [
+                  3601,
+                  1540,
+                  556,
+                  56
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957",
+            "@type": "Area",
+            "box": [
+              3603,
+              1668,
+              774,
+              592
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957-ZONE524968331",
+                "@type": "Text",
+                "box": [
+                  3777,
+                  1668,
+                  422,
+                  51
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957-ZONE524968332",
+                "@type": "Text",
+                "box": [
+                  3846,
+                  1732,
+                  285,
+                  34
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957-ZONE524968333",
+                "@type": "Text",
+                "box": [
+                  3603,
+                  1819,
+                  774,
+                  98
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957-ZONE524968334",
+                "@type": "Text",
+                "box": [
+                  3741,
+                  1934,
+                  507,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668957-ZONE524968335",
+                "@type": "Text",
+                "box": [
+                  3603,
+                  1991,
+                  772,
+                  269
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958",
+            "@type": "Area",
+            "box": [
+              2778,
+              2471,
+              787,
+              2550
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968338",
+                "@type": "Text",
+                "box": [
+                  3018,
+                  2471,
+                  325,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968339",
+                "@type": "Text",
+                "box": [
+                  2810,
+                  2652,
+                  734,
+                  126
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968340",
+                "@type": "Text",
+                "box": [
+                  2782,
+                  2781,
+                  783,
+                  663
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968345",
+                "@type": "Text",
+                "box": [
+                  2785,
+                  3512,
+                  775,
+                  104
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968346",
+                "@type": "Text",
+                "box": [
+                  2890,
+                  3629,
+                  588,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968347",
+                "@type": "Text",
+                "box": [
+                  2783,
+                  3683,
+                  774,
+                  79
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968348",
+                "@type": "Text",
+                "box": [
+                  2959,
+                  3772,
+                  428,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668958-ZONE524968349",
+                "@type": "Text",
+                "box": [
+                  2778,
+                  3824,
+                  780,
+                  1198
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959",
+            "@type": "Area",
+            "box": [
+              2775,
+              5028,
+              777,
+              735
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968364",
+                "@type": "Text",
+                "box": [
+                  2776,
+                  5028,
+                  772,
+                  120
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968365",
+                "@type": "Text",
+                "box": [
+                  2776,
+                  5161,
+                  775,
+                  105
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968366",
+                "@type": "Text",
+                "box": [
+                  2926,
+                  5278,
+                  480,
+                  52
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968367",
+                "@type": "Text",
+                "box": [
+                  2775,
+                  5335,
+                  777,
+                  217
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968370",
+                "@type": "Text",
+                "box": [
+                  2776,
+                  5568,
+                  770,
+                  85
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668959-ZONE524968371",
+                "@type": "Text",
+                "box": [
+                  2775,
+                  5656,
+                  772,
+                  107
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668960",
+            "@type": "Area",
+            "box": [
+              2769,
+              5776,
+              782,
+              432
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668960-ZONE524968372",
+                "@type": "Text",
+                "box": [
+                  2984,
+                  5776,
+                  360,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668960-ZONE524968373",
+                "@type": "Text",
+                "box": [
+                  2769,
+                  5827,
+                  782,
+                  382
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961",
+            "@type": "Area",
+            "box": [
+              1957,
+              6208,
+              783,
+              683
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968374",
+                "@type": "Text",
+                "box": [
+                  1960,
+                  6208,
+                  780,
+                  86
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968375",
+                "@type": "Text",
+                "box": [
+                  1962,
+                  6296,
+                  774,
+                  69
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968376",
+                "@type": "Text",
+                "box": [
+                  1957,
+                  6378,
+                  781,
+                  171
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968377",
+                "@type": "Text",
+                "box": [
+                  2069,
+                  6558,
+                  575,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968378",
+                "@type": "Text",
+                "box": [
+                  1993,
+                  6618,
+                  398,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668961-ZONE524968379",
+                "@type": "Text",
+                "box": [
+                  1960,
+                  6661,
+                  776,
+                  232
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668962",
+            "@type": "Area",
+            "box": [
+              2768,
+              6214,
+              780,
+              313
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668962-ZONE524968384",
+                "@type": "Text",
+                "box": [
+                  2874,
+                  6214,
+                  586,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668962-ZONE524968385",
+                "@type": "Text",
+                "box": [
+                  2768,
+                  6309,
+                  780,
+                  189
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668962-ZONE524968387",
+                "@type": "Text",
+                "box": [
+                  2769,
+                  6500,
+                  180,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668962-ZONE524968390",
+                "@type": "Text",
+                "box": [
+                  2923,
+                  6493,
+                  574,
+                  31
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963",
+            "@type": "Area",
+            "box": [
+              2784,
+              2338,
+              1589,
+              4557
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968391",
+                "@type": "Text",
+                "box": [
+                  2984,
+                  6592,
+                  338,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968392",
+                "@type": "Text",
+                "box": [
+                  2836,
+                  6704,
+                  643,
+                  82
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968393",
+                "@type": "Text",
+                "box": [
+                  2784,
+                  6793,
+                  760,
+                  102
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968394",
+                "@type": "Text",
+                "box": [
+                  3699,
+                  2338,
+                  578,
+                  172
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968395",
+                "@type": "Text",
+                "box": [
+                  3597,
+                  2516,
+                  776,
+                  64
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668963-ZONE524968396",
+                "@type": "Text",
+                "box": [
+                  3626,
+                  2586,
+                  272,
+                  24
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668964",
+            "@type": "Area",
+            "box": [
+              3593,
+              2631,
+              782,
+              280
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668964-ZONE524968397",
+                "@type": "Text",
+                "box": [
+                  3695,
+                  2631,
+                  585,
+                  52
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668964-ZONE524968398",
+                "@type": "Text",
+                "box": [
+                  3593,
+                  2697,
+                  782,
+                  213
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668965",
+            "@type": "Area",
+            "box": [
+              3590,
+              2919,
+              780,
+              910
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668965-ZONE524968401",
+                "@type": "Text",
+                "box": [
+                  3744,
+                  2919,
+                  484,
+                  46
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668965-ZONE524968402",
+                "@type": "Text",
+                "box": [
+                  3592,
+                  2977,
+                  777,
+                  472
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668965-ZONE524968407",
+                "@type": "Text",
+                "box": [
+                  3691,
+                  3527,
+                  588,
+                  168
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668965-ZONE524968408",
+                "@type": "Text",
+                "box": [
+                  3590,
+                  3702,
+                  780,
+                  126
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668966",
+            "@type": "Area",
+            "box": [
+              3591,
+              3840,
+              776,
+              242
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668966-ZONE524968410",
+                "@type": "Text",
+                "box": [
+                  3690,
+                  3840,
+                  597,
+                  69
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668966-ZONE524968411",
+                "@type": "Text",
+                "box": [
+                  3591,
+                  3914,
+                  776,
+                  168
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967",
+            "@type": "Area",
+            "box": [
+              3584,
+              385,
+              1605,
+              4170
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968412",
+                "@type": "Text",
+                "box": [
+                  3692,
+                  4217,
+                  578,
+                  82
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968413",
+                "@type": "Text",
+                "box": [
+                  3598,
+                  4352,
+                  750,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968414",
+                "@type": "Text",
+                "box": [
+                  3584,
+                  4418,
+                  784,
+                  137
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968416",
+                "@type": "Text",
+                "box": [
+                  4549,
+                  385,
+                  515,
+                  40
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968417",
+                "@type": "Text",
+                "box": [
+                  4414,
+                  429,
+                  775,
+                  338
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968421",
+                "@type": "Text",
+                "box": [
+                  4631,
+                  785,
+                  343,
+                  57
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968422",
+                "@type": "Text",
+                "box": [
+                  4414,
+                  852,
+                  771,
+                  155
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968423",
+                "@type": "Text",
+                "box": [
+                  4696,
+                  1025,
+                  214,
+                  39
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668967-ZONE524968424",
+                "@type": "Text",
+                "box": [
+                  4411,
+                  1073,
+                  774,
+                  167
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968",
+            "@type": "Area",
+            "box": [
+              4408,
+              1254,
+              775,
+              793
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968425",
+                "@type": "Text",
+                "box": [
+                  4457,
+                  1254,
+                  682,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968426",
+                "@type": "Text",
+                "box": [
+                  4408,
+                  1347,
+                  775,
+                  200
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968427",
+                "@type": "Text",
+                "box": [
+                  4458,
+                  1562,
+                  678,
+                  58
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968428",
+                "@type": "Text",
+                "box": [
+                  4409,
+                  1629,
+                  774,
+                  232
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968429",
+                "@type": "Text",
+                "box": [
+                  4595,
+                  1878,
+                  409,
+                  31
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668968-ZONE524968430",
+                "@type": "Text",
+                "box": [
+                  4409,
+                  1915,
+                  774,
+                  132
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969",
+            "@type": "Area",
+            "box": [
+              4399,
+              2064,
+              787,
+              2157
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968431",
+                "@type": "Text",
+                "box": [
+                  4421,
+                  2064,
+                  762,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968432",
+                "@type": "Text",
+                "box": [
+                  4405,
+                  2132,
+                  781,
+                  270
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968434",
+                "@type": "Text",
+                "box": [
+                  4403,
+                  2404,
+                  363,
+                  57
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968435",
+                "@type": "Text",
+                "box": [
+                  4402,
+                  2460,
+                  210,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968437",
+                "@type": "Text",
+                "box": [
+                  4771,
+                  2404,
+                  411,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968438",
+                "@type": "Text",
+                "box": [
+                  4405,
+                  2501,
+                  772,
+                  143
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968441",
+                "@type": "Text",
+                "box": [
+                  4618,
+                  2714,
+                  306,
+                  56
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968442",
+                "@type": "Text",
+                "box": [
+                  4400,
+                  2823,
+                  778,
+                  382
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968446",
+                "@type": "Text",
+                "box": [
+                  4660,
+                  3225,
+                  270,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968447",
+                "@type": "Text",
+                "box": [
+                  4399,
+                  3258,
+                  778,
+                  292
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968450",
+                "@type": "Text",
+                "box": [
+                  4432,
+                  3557,
+                  533,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968451",
+                "@type": "Text",
+                "box": [
+                  4400,
+                  3604,
+                  770,
+                  63
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968452",
+                "@type": "Text",
+                "box": [
+                  4604,
+                  3683,
+                  372,
+                  28
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668969-ZONE524968453",
+                "@type": "Text",
+                "box": [
+                  4399,
+                  3717,
+                  777,
+                  503
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668970",
+            "@type": "Area",
+            "box": [
+              5221,
+              389,
+              772,
+              224
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668970-ZONE524968455",
+                "@type": "Text",
+                "box": [
+                  5367,
+                  389,
+                  497,
+                  86
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668970-ZONE524968456",
+                "@type": "Text",
+                "box": [
+                  5221,
+                  478,
+                  772,
+                  136
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971",
+            "@type": "Area",
+            "box": [
+              5219,
+              620,
+              780,
+              654
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968457",
+                "@type": "Text",
+                "box": [
+                  5221,
+                  620,
+                  778,
+                  98
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968458",
+                "@type": "Text",
+                "box": [
+                  5221,
+                  721,
+                  772,
+                  100
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968462",
+                "@type": "Text",
+                "box": [
+                  5257,
+                  839,
+                  710,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968463",
+                "@type": "Text",
+                "box": [
+                  5221,
+                  927,
+                  771,
+                  65
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968464",
+                "@type": "Text",
+                "box": [
+                  5366,
+                  1009,
+                  480,
+                  45
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968465",
+                "@type": "Text",
+                "box": [
+                  5221,
+                  1074,
+                  769,
+                  97
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668971-ZONE524968466",
+                "@type": "Text",
+                "box": [
+                  5219,
+                  1178,
+                  772,
+                  97
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668972",
+            "@type": "Area",
+            "box": [
+              5215,
+              1295,
+              774,
+              665
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668972-ZONE524968467",
+                "@type": "Text",
+                "box": [
+                  5262,
+                  1295,
+                  690,
+                  116
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668972-ZONE524968468",
+                "@type": "Text",
+                "box": [
+                  5215,
+                  1425,
+                  774,
+                  535
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668973",
+            "@type": "Area",
+            "box": [
+              5215,
+              2065,
+              770,
+              174
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668973-ZONE524968473",
+                "@type": "Text",
+                "box": [
+                  5428,
+                  2065,
+                  307,
+                  51
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668973-ZONE524968474",
+                "@type": "Text",
+                "box": [
+                  5215,
+                  2173,
+                  770,
+                  65
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668974",
+            "@type": "Area",
+            "box": [
+              5208,
+              2248,
+              776,
+              874
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668974-ZONE524968475",
+                "@type": "Text",
+                "box": [
+                  5268,
+                  2248,
+                  652,
+                  141
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668974-ZONE524968476",
+                "@type": "Text",
+                "box": [
+                  5208,
+                  2414,
+                  776,
+                  708
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975",
+            "@type": "Area",
+            "box": [
+              5204,
+              3133,
+              783,
+              588
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968481",
+                "@type": "Text",
+                "box": [
+                  5208,
+                  3133,
+                  776,
+                  132
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968482",
+                "@type": "Text",
+                "box": [
+                  5208,
+                  3271,
+                  772,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968483",
+                "@type": "Text",
+                "box": [
+                  5208,
+                  3307,
+                  102,
+                  22
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968484",
+                "@type": "Text",
+                "box": [
+                  5265,
+                  3343,
+                  666,
+                  50
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968485",
+                "@type": "Text",
+                "box": [
+                  5207,
+                  3402,
+                  772,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968487",
+                "@type": "Text",
+                "box": [
+                  5207,
+                  3472,
+                  227,
+                  24
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668975-ZONE524968488",
+                "@type": "Text",
+                "box": [
+                  5204,
+                  3515,
+                  783,
+                  206
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976",
+            "@type": "Area",
+            "box": [
+              3583,
+              4561,
+              787,
+              1163
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968491",
+                "@type": "Text",
+                "box": [
+                  3644,
+                  4561,
+                  672,
+                  78
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968492",
+                "@type": "Text",
+                "box": [
+                  3584,
+                  4650,
+                  785,
+                  395
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968495",
+                "@type": "Text",
+                "box": [
+                  3805,
+                  5072,
+                  343,
+                  61
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968496",
+                "@type": "Text",
+                "box": [
+                  3585,
+                  5137,
+                  777,
+                  99
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-IMAGE7",
+                "@type": "Image",
+                "box": [
+                  3692,
+                  5244,
+                  669,
+                  184
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968498",
+                "@type": "Text",
+                "box": [
+                  3585,
+                  5441,
+                  771,
+                  66
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968499",
+                "@type": "Text",
+                "box": [
+                  3754,
+                  5522,
+                  444,
+                  52
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668976-ZONE524968500",
+                "@type": "Text",
+                "box": [
+                  3583,
+                  5588,
+                  774,
+                  135
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977",
+            "@type": "Area",
+            "box": [
+              3573,
+              4243,
+              1599,
+              2633
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968501",
+                "@type": "Text",
+                "box": [
+                  3689,
+                  5839,
+                  565,
+                  73
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968502",
+                "@type": "Text",
+                "box": [
+                  3826,
+                  5999,
+                  257,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968503",
+                "@type": "Text",
+                "box": [
+                  3664,
+                  6106,
+                  600,
+                  64
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968504",
+                "@type": "Text",
+                "box": [
+                  3579,
+                  6175,
+                  774,
+                  130
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968505",
+                "@type": "Text",
+                "box": [
+                  3841,
+                  6329,
+                  305,
+                  43
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968506",
+                "@type": "Text",
+                "box": [
+                  3577,
+                  6389,
+                  780,
+                  235
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968508",
+                "@type": "Text",
+                "box": [
+                  3600,
+                  6631,
+                  109,
+                  26
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968509",
+                "@type": "Text",
+                "box": [
+                  3865,
+                  6540,
+                  491,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968510",
+                "@type": "Text",
+                "box": [
+                  3574,
+                  6656,
+                  778,
+                  115
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968511",
+                "@type": "Text",
+                "box": [
+                  3573,
+                  6775,
+                  781,
+                  100
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968512",
+                "@type": "Text",
+                "box": [
+                  4608,
+                  4243,
+                  357,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668977-ZONE524968513",
+                "@type": "Text",
+                "box": [
+                  4398,
+                  4281,
+                  775,
+                  257
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668978",
+            "@type": "Area",
+            "box": [
+              4395,
+              4668,
+              778,
+              239
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668978-ZONE524968517",
+                "@type": "Text",
+                "box": [
+                  4492,
+                  4668,
+                  635,
+                  64
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668978-ZONE524968518",
+                "@type": "Text",
+                "box": [
+                  4396,
+                  4789,
+                  358,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668978-ZONE524968519",
+                "@type": "Text",
+                "box": [
+                  4395,
+                  4875,
+                  363,
+                  32
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668978-ZONE524968520",
+                "@type": "Text",
+                "box": [
+                  4636,
+                  4786,
+                  537,
+                  120
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668979",
+            "@type": "Area",
+            "box": [
+              4393,
+              4973,
+              772,
+              239
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668979-ZONE524968521",
+                "@type": "Text",
+                "box": [
+                  4637,
+                  4973,
+                  248,
+                  52
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668979-ZONE524968522",
+                "@type": "Text",
+                "box": [
+                  4540,
+                  5081,
+                  484,
+                  58
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668979-ZONE524968523",
+                "@type": "Text",
+                "box": [
+                  4393,
+                  5146,
+                  772,
+                  66
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668980",
+            "@type": "Area",
+            "box": [
+              4388,
+              5233,
+              776,
+              261
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668980-ZONE524968524",
+                "@type": "Text",
+                "box": [
+                  4388,
+                  5233,
+                  776,
+                  128
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668980-ZONE524968525",
+                "@type": "Text",
+                "box": [
+                  4389,
+                  5363,
+                  774,
+                  96
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668980-ZONE524968526",
+                "@type": "Text",
+                "box": [
+                  4393,
+                  5467,
+                  155,
+                  27
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668981",
+            "@type": "Area",
+            "box": [
+              5207,
+              3767,
+              772,
+              571
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668981-ZONE524968527",
+                "@type": "Text",
+                "box": [
+                  5208,
+                  3767,
+                  770,
+                  124
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668981-ZONE524968528",
+                "@type": "Text",
+                "box": [
+                  5207,
+                  3917,
+                  772,
+                  419
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668982",
+            "@type": "Area",
+            "box": [
+              5204,
+              4368,
+              771,
+              194
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668982-ZONE524968529",
+                "@type": "Text",
+                "box": [
+                  5351,
+                  4368,
+                  498,
+                  82
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668982-ZONE524968530",
+                "@type": "Text",
+                "box": [
+                  5204,
+                  4459,
+                  771,
+                  103
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668983",
+            "@type": "Area",
+            "box": [
+              5202,
+              4596,
+              772,
+              224
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668983-ZONE524968531",
+                "@type": "Text",
+                "box": [
+                  5352,
+                  4596,
+                  476,
+                  86
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668983-ZONE524968532",
+                "@type": "Text",
+                "box": [
+                  5202,
+                  4688,
+                  772,
+                  132
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668984",
+            "@type": "Area",
+            "box": [
+              4392,
+              4838,
+              1583,
+              862
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668984-ZONE524968533",
+                "@type": "Text",
+                "box": [
+                  5326,
+                  4838,
+                  524,
+                  66
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668984-ZONE524968534",
+                "@type": "Text",
+                "box": [
+                  5202,
+                  4907,
+                  772,
+                  99
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668984-ZONE524968535",
+                "@type": "Text",
+                "box": [
+                  4583,
+                  5511,
+                  395,
+                  38
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668984-ZONE524968536",
+                "@type": "Text",
+                "box": [
+                  4392,
+                  5569,
+                  772,
+                  131
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668985",
+            "@type": "Area",
+            "box": [
+              4387,
+              5717,
+              775,
+              191
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668985-ZONE524968537",
+                "@type": "Text",
+                "box": [
+                  4480,
+                  5717,
+                  598,
+                  78
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668985-ZONE524968538",
+                "@type": "Text",
+                "box": [
+                  4387,
+                  5809,
+                  775,
+                  98
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668986",
+            "@type": "Area",
+            "box": [
+              4381,
+              5926,
+              783,
+              351
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668986-ZONE524968539",
+                "@type": "Text",
+                "box": [
+                  4512,
+                  5926,
+                  540,
+                  133
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668986-ZONE524968540",
+                "@type": "Text",
+                "box": [
+                  4381,
+                  6068,
+                  783,
+                  210
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668987",
+            "@type": "Area",
+            "box": [
+              4386,
+              6292,
+              776,
+              360
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668987-ZONE524968542",
+                "@type": "Text",
+                "box": [
+                  4536,
+                  6292,
+                  476,
+                  148
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668987-ZONE524968543",
+                "@type": "Text",
+                "box": [
+                  4386,
+                  6459,
+                  776,
+                  194
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668988",
+            "@type": "Area",
+            "box": [
+              4383,
+              6675,
+              776,
+              198
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668988-ZONE524968544",
+                "@type": "Text",
+                "box": [
+                  4618,
+                  6675,
+                  317,
+                  58
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668988-ZONE524968545",
+                "@type": "Text",
+                "box": [
+                  4383,
+                  6740,
+                  776,
+                  133
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668989",
+            "@type": "Area",
+            "box": [
+              5198,
+              5022,
+              775,
+              369
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668989-ZONE524968546",
+                "@type": "Text",
+                "box": [
+                  5286,
+                  5022,
+                  606,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668989-ZONE524968547",
+                "@type": "Text",
+                "box": [
+                  5198,
+                  5112,
+                  775,
+                  278
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668990",
+            "@type": "Area",
+            "box": [
+              5196,
+              5412,
+              776,
+              359
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668990-ZONE524968548",
+                "@type": "Text",
+                "box": [
+                  5248,
+                  5412,
+                  669,
+                  89
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668990-ZONE524968549",
+                "@type": "Text",
+                "box": [
+                  5196,
+                  5503,
+                  776,
+                  268
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668991",
+            "@type": "Area",
+            "box": [
+              5200,
+              5788,
+              769,
+              146
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668991-ZONE524968550",
+                "@type": "Text",
+                "box": [
+                  5333,
+                  5788,
+                  503,
+                  64
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668991-ZONE524968551",
+                "@type": "Text",
+                "box": [
+                  5200,
+                  5869,
+                  769,
+                  65
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992",
+            "@type": "Area",
+            "box": [
+              5193,
+              5945,
+              778,
+              749
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968552",
+                "@type": "Text",
+                "box": [
+                  5276,
+                  5945,
+                  617,
+                  168
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968553",
+                "@type": "Text",
+                "box": [
+                  5193,
+                  6113,
+                  778,
+                  324
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968554",
+                "@type": "Text",
+                "box": [
+                  5472,
+                  6449,
+                  217,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968555",
+                "@type": "Text",
+                "box": [
+                  5197,
+                  6480,
+                  769,
+                  67
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968556",
+                "@type": "Text",
+                "box": [
+                  5789,
+                  6550,
+                  146,
+                  27
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968557",
+                "@type": "Text",
+                "box": [
+                  5301,
+                  6595,
+                  565,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668992-ZONE524968558",
+                "@type": "Text",
+                "box": [
+                  5195,
+                  6628,
+                  769,
+                  66
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668993",
+            "@type": "Area",
+            "box": [
+              5195,
+              6709,
+              774,
+              202
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668993-ZONE524968559",
+                "@type": "Text",
+                "box": [
+                  5469,
+                  6709,
+                  222,
+                  48
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668993-ZONE524968560",
+                "@type": "Text",
+                "box": [
+                  5195,
+                  6774,
+                  772,
+                  69
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668993-ZONE524968561",
+                "@type": "Text",
+                "box": [
+                  5536,
+                  6841,
+                  432,
+                  70
+                ],
+                "has_part": []
+              }
+            ]
+          },
+          {
+            "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994",
+            "@type": "Area",
+            "box": [
+              1145,
+              7045,
+              4822,
+              1416
+            ],
+            "has_part": [
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968564",
+                "@type": "Text",
+                "box": [
+                  1191,
+                  8213,
+                  686,
+                  102
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968565",
+                "@type": "Text",
+                "box": [
+                  1145,
+                  8339,
+                  780,
+                  102
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968566",
+                "@type": "Text",
+                "box": [
+                  2443,
+                  7064,
+                  138,
+                  25
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968567",
+                "@type": "Text",
+                "box": [
+                  2125,
+                  7112,
+                  772,
+                  220
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968568",
+                "@type": "Text",
+                "box": [
+                  2160,
+                  7340,
+                  267,
+                  37
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968569",
+                "@type": "Text",
+                "box": [
+                  2120,
+                  7382,
+                  778,
+                  721
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968574",
+                "@type": "Text",
+                "box": [
+                  2159,
+                  8111,
+                  498,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968575",
+                "@type": "Text",
+                "box": [
+                  2120,
+                  8155,
+                  782,
+                  306
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968577",
+                "@type": "Text",
+                "box": [
+                  3425,
+                  7053,
+                  141,
+                  25
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968578",
+                "@type": "Text",
+                "box": [
+                  3108,
+                  7100,
+                  778,
+                  1262
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968589",
+                "@type": "Text",
+                "box": [
+                  3147,
+                  8377,
+                  482,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968590",
+                "@type": "Text",
+                "box": [
+                  3147,
+                  8423,
+                  738,
+                  37
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968591",
+                "@type": "Text",
+                "box": [
+                  4515,
+                  7046,
+                  144,
+                  25
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968592",
+                "@type": "Text",
+                "box": [
+                  4203,
+                  7094,
+                  772,
+                  84
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968593",
+                "@type": "Text",
+                "box": [
+                  4237,
+                  7196,
+                  390,
+                  35
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968594",
+                "@type": "Text",
+                "box": [
+                  4201,
+                  7249,
+                  774,
+                  317
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968597",
+                "@type": "Text",
+                "box": [
+                  4236,
+                  7582,
+                  298,
+                  126
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968600",
+                "@type": "Text",
+                "box": [
+                  4200,
+                  7717,
+                  778,
+                  728
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968601",
+                "@type": "Text",
+                "box": [
+                  5510,
+                  7045,
+                  141,
+                  30
+                ],
+                "has_part": []
+              },
+              {
+                "@id": "https://betalab.kb.se/dark-3705712#1-2-ARTICLE54668994-ZONE524968602",
+                "@type": "Text",
+                "box": [
+                  5187,
+                  7093,
+                  780,
+                  1352
+                ],
+                "has_part": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
