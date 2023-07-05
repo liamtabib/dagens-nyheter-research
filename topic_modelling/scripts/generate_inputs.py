@@ -13,10 +13,9 @@ def read_year(identifier):
 
                 return raw_metadata['year']
         
-
+    
 def main():
-     #TODO add remaining columns in the csv file
-    pathlist = Path('corpus/').rglob('content.xhtml')
+    pathlist = Path('corpus/epubs').rglob('content.xhtml')
     txt_rows=[]
     csv_rows=[]
     article_index=0
@@ -38,7 +37,7 @@ def main():
             csv_rows.append(csv_row)
             article_index+=1
 
-    with open('topic_modelling/pcplda_input/input.txt', 'w') as f:
+    with open('topic_modelling/pclda_input/input.txt', 'w') as f:
         for row in txt_rows:
             f.write('\t'.join(row))
             f.write('\n')
