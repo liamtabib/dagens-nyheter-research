@@ -42,7 +42,7 @@ def main():
             f.write('\t'.join(row))
             f.write('\n')
     df = pd.DataFrame(csv_rows, columns=["article_name", "article_index", "year"])
-    df.to_csv('topic_modelling/westac_hub_input/documents.csv',index=False)
+    df.to_csv('topic_modelling/westac_hub_files/documents.csv',index=False)
 
 if __name__ == '__main__':
     main()

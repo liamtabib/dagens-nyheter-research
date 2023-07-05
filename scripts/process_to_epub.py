@@ -3,6 +3,20 @@ from pathlib import Path
 from lxml import etree
 import zipfile
 from ebooklib import epub
+import uuid
+import base58
+import hashlib
+
+def get_formatted_uuid(seed=None):
+    if seed is None:
+        x = uuid.uuid4()
+    else:
+        m = hashlib.md5()
+        m.update(seed.encode('utf-8'))
+        x = uuid.UUID(m.hexdigest())
+
+    return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
+
 
 def compute_header_treshold(raw_file,quantile=0.80):
     size=[]
@@ -21,8 +35,9 @@ def compute_header_treshold(raw_file,quantile=0.80):
         raise Exception(f"An error occurred while computing the header threshold: {str(e)}")
 
 
-def is_article(block,header_treshold):
+def is_article(block,header_treshold): 
     font_information=block['font']
+    num_words_in_block=len(block['content'].split(' '))
 
     block_font_sizes=[]
     block_font_styles=[]
@@ -34,7 +49,8 @@ def is_article(block,header_treshold):
         
     #get top font size
     max_size=max(list(map(float,block_font_sizes)))
-    if 'Arial' in block_font_families and max_size>header_treshold:
+    #if 'Arial' in block_font_families and max_size>header_treshold and num_words_in_block>30:
+    if max_size>header_treshold and num_words_in_block>47:
         return True
     else: return False
 
@@ -90,8 +106,10 @@ def json_to_xml(raw_file):
                 page_link=page_link_shape+num_zeros+page_number+'.jp2/_view'
                 pb_element.set("n",page_number)
                 pb_element.set("facs",page_link)
+                pb_element.set('xml:id',get_formatted_uuid())
     
             note_element=etree.SubElement(div_element, "note")
+            note_element.set('xml:id',get_formatted_uuid())
             note_element.text = block_content
                     
     return etree.tostring(root, pretty_print=True)
