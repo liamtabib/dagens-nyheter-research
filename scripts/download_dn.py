@@ -7,7 +7,7 @@ import json
 import argparse
 
 def get_ids(pw):
-    """function to return all ids"""
+    """Reads credentials to kblab API betalab and returns all matches in the API for the 'Dagens nyheter' search'"""
     a = Archive('https://betalab.kb.se', auth=("demo", pw))
     ids = []
     for package_id in a.search({'label': 'DAGENS NYHETER'}, max=20):
@@ -15,6 +15,9 @@ def get_ids(pw):
     return ids
 
 def store_files(package_id, pw, p):
+    """ Reads an id of a specific package, kb credentials, and a directory to store the resulting json files.
+        Stores content files, metadata files, and structure files.
+    """
     try:
         meta = requests.get(f"https://betalab.kb.se/{package_id}/meta.json", auth=HTTPBasicAuth("demo", pw))
         meta = json.loads(meta.text)

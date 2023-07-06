@@ -8,6 +8,10 @@ import base58
 import hashlib
 
 def get_formatted_uuid(seed=None):
+    """ returns a uuid
+    Args:
+        seed (optional) : seed 
+    """
     if seed is None:
         x = uuid.uuid4()
     else:
@@ -19,6 +23,11 @@ def get_formatted_uuid(seed=None):
 
 
 def compute_header_treshold(raw_file,quantile=0.80):
+    """ reads in a content_json file of dagens nyheter, and computes the quantile of all the sizes of the words within that file.
+    Args:
+        raw_file : content_json file 
+        quantile : the q'th quantile in [0,1]. The larger this number is chosen, will result in less number of headers and subsequently less articles/documents.
+    """
     size=[]
     for block in raw_file:
         if block['content']=='':
@@ -35,7 +44,12 @@ def compute_header_treshold(raw_file,quantile=0.80):
         raise Exception(f"An error occurred while computing the header threshold: {str(e)}")
 
 
-def is_article(block,header_treshold): 
+def is_article(block,header_treshold):
+    """ reads in text block from the content_json raw file, and a treshold for determining whether there is a header inside.
+        on the basis of the font sizes if it includes a font size above the treshold, and font styles, it returns a boolean,
+        indicating if this text block is the start of an article. All subsequent text blocks that are not articles will be 
+        considered as text inside the last text block considered as article.
+    """
     font_information=block['font']
     num_words_in_block=len(block['content'].split(' '))
 
@@ -56,6 +70,8 @@ def is_article(block,header_treshold):
 
 
 def page_link_structure(identifier):
+    """ takes in an id for a dagens nyheter utgåva, and returns how the url for the image of a page/text block inside betalab is structured.
+    """
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
 
     structure_file = json_dir_path.glob(f'{identifier}_structure.json')
@@ -69,6 +85,10 @@ def page_link_structure(identifier):
 
 
 def json_to_xml(raw_file):
+    """ reads in a json content file of a dagens nyheter utgåva, and creates an xml object,
+        iteratively populating the object with each text block that is not empty,
+        effectively creating a hierarchy based on whenever an article is identified.
+    """
     root=etree.Element('text')
     div_element=etree.SubElement(root,'div')
     div_element.set('type','preface')
@@ -116,6 +136,12 @@ def json_to_xml(raw_file):
 
 
 def save_epub(epub_content,epub_name,epub_dir):
+    """ creates epub out of an xml object.
+    Args:
+        epub_content : xml etree string
+        epub_name : file name of the resulting epub
+        epub_dir : save directory 
+    """
     book = epub.EpubBook()
     book.set_identifier(epub_name)
     book.set_title("Sample book")

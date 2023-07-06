@@ -7,28 +7,28 @@ import os
 import shutil
 
 def latest_runsuite(Path_to_runs_dir):
+    """ reads in path to directory of the runs of pclda model, and returns the most recent model run sub-directory """
+    # append * to path
     if Path_to_runs_dir.split('/')[-1]=='':
         Path_to_runs_dir=Path_to_runs_dir+'*'
     elif Path_to_runs_dir.split('/')[-1]=='Runs':
         Path_to_runs_dir=Path_to_runs_dir+'/*'
     else: 
-        print('wrong path')
-        return -1
-
+        raise ValueError('Wrong path to runs dir provided')
+    # find all RunSuites
     dir_paths=glob('/Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/Runs/*')
     times=[]
     for runsuite_path in dir_paths:
+        # store the time of the RunSuite in datetime format
         time_in_datetime = datetime.strptime(runsuite_path.split('/')[-1][8:], '%Y-%m-%d--%H_%M_%S')
         times.append(time_in_datetime)
-
+    # find the most recent runsuite
     right_runsuite=max(times).strftime('%Y-%m-%d--%H_%M_%S')
     for runsuite_path in dir_paths:
         if right_runsuite in runsuite_path:
             print(f'picked runsuite which started on {right_runsuite}')
             return runsuite_path
-    print('wrong')
-    return -1
-        
+
 
 def main(args):
     #make directory
