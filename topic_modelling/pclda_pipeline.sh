@@ -8,6 +8,12 @@ python3 topic_modelling/scripts/generate_inputs.py
 python3 topic_modelling/scripts/preprocess.py
 
 cp topic_modelling/pclda_input/* /Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/
+
+if [ -z "$(ls -A ~/Documents/jobb/PartiallyCollapsedLDA/Runs)" ]; then
+   echo 'Runs dir is empty'
+   exit 1
+fi
+
 #move to run model
 cd /Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/
 
