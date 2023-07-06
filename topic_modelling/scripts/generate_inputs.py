@@ -3,6 +3,8 @@ from lxml import etree
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import json
+import os
+import shutil
 
 def read_year(identifier):
     pathlist = Path('corpus/').rglob(f'{identifier}_meta.json')
@@ -42,6 +44,11 @@ def main():
             f.write('\t'.join(row))
             f.write('\n')
     df = pd.DataFrame(csv_rows, columns=["article_name", "article_index", "year"])
+
+    westac_hub_files_dir='topic_modelling/westac_hub_files'
+    if os.path.exists(westac_hub_files_dir):
+        shutil.rmtree(westac_hub_files_dir)
+    os.makedirs(westac_hub_files_dir)
     df.to_csv('topic_modelling/westac_hub_files/documents.csv',index=False)
 
 if __name__ == '__main__':

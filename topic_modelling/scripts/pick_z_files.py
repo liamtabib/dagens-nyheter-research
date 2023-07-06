@@ -24,6 +24,7 @@ def latest_runsuite(Path_to_runs_dir):
     right_runsuite=max(times).strftime('%Y-%m-%d--%H_%M_%S')
     for runsuite_path in dir_paths:
         if right_runsuite in runsuite_path:
+            print(f'picked runsuite which started on {right_runsuite}')
             return runsuite_path
     print('wrong')
     return -1
