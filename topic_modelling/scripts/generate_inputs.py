@@ -5,14 +5,15 @@ from pathlib import Path
 import json
 import os
 import shutil
+import argparse
 
 def to_zip(data: pd.DataFrame, filename: str, archive_name: str, **csv_opts) -> None:
     data.to_csv(filename, compression=dict(method='zip', archive_name=archive_name), **csv_opts)
 
-def read_year(identifier):
+def read_year(corpus_path,identifier):
     """ reads in an identifier for the dagens nyheter utgåva and finds the utgivnings year inside the metadata file """
     # find the path of the right metadata file
-    pathlist = Path('corpus/').rglob(f'{identifier}_meta.json')
+    pathlist = Path(corpus_path).rglob(f'{identifier}_meta.json')
     for path in pathlist:
         with path.open('r', encoding='utf-8') as f:
 
@@ -21,14 +22,14 @@ def read_year(identifier):
                 return raw_metadata['year']
         
 
-def main():
+def main(args):
     """ reads in the dagens nyheter in epub format,
         and stores the content of each article as a row
         to an input.txt file, along with the columns of article index and placeholder.
         Moreover, it also assigns indices to each article/document along with the year,
         to documents.csv """
     # path to all epub xml content files
-    pathlist = Path('corpus/epubs').rglob('content.xhtml')
+    pathlist = Path(args.corpus_path).rglob('content.xhtml')
     txt_rows=[]
     csv_rows=[]
     article_index=0
@@ -37,7 +38,7 @@ def main():
         #get the identifier of utgåva
         edition_id=path.parent.parent.stem
         tree = ET.ElementTree(etree.parse(path))
-        year = read_year(edition_id)
+        year = read_year(args.corpus_path,edition_id)
         #iterate through each <div type='article'> element
         for div_article in tree.iterfind(".//{http://www.w3.org/1999/xhtml}div[@type='article']"):
             article_content = ""
@@ -60,13 +61,16 @@ def main():
             f.write('\n')
     df = pd.DataFrame(csv_rows, columns=["article_name", "article_index", "year"])
 
-    westac_hub_files_dir='topic_modelling/westac_hub_files'
-    if os.path.exists(westac_hub_files_dir):
-        shutil.rmtree(westac_hub_files_dir)
-    os.makedirs(westac_hub_files_dir)
+    if os.path.exists(args.westac_hub_dir):
+        shutil.rmtree(args.westac_hub_dir)
+    os.makedirs(args.westac_hub_dir)
 
-    to_zip(data=df,filename='topic_modelling/westac_hub_files/documents.zip',archive_name='documents.csv',sep='\t',index=False)
+    to_zip(data=df,filename=f'{args.westac_hub_dir}/documents.zip',archive_name='documents.csv',sep='\t',index=False)
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description='Process corpus and Westac Hub files directories.')
+    parser.add_argument('--corpus_path', type=str, help='Path to the corpus directory', default='corpus/')
+    parser.add_argument('--westac_hub_dir', type=str, help='Path to the Westac Hub files directory', default='topic_modelling/westac_hub_files')
+    args = parser.parse_args()
+    main(args)

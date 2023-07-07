@@ -126,10 +126,10 @@ def json_to_xml(raw_file):
                 page_link=page_link_shape+num_zeros+page_number+'.jp2/_view'
                 pb_element.set("n",page_number)
                 pb_element.set("facs",page_link)
-                pb_element.set('xml:id',get_formatted_uuid())
+                pb_element.set('xml_id',get_formatted_uuid())
     
             note_element=etree.SubElement(div_element, "note")
-            note_element.set('xml:id',get_formatted_uuid())
+            note_element.set('xml_id',get_formatted_uuid())
             note_element.text = block_content
                     
     return etree.tostring(root, pretty_print=True)

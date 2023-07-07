@@ -16,7 +16,7 @@ def latest_runsuite(Path_to_runs_dir):
     else: 
         raise ValueError('Wrong path to runs dir provided')
     # find all RunSuites
-    dir_paths=glob('/Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/Runs/*')
+    dir_paths=glob(Path_to_runs_dir)
     times=[]
     for runsuite_path in dir_paths:
         # store the time of the RunSuite in datetime format

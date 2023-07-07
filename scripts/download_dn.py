@@ -10,7 +10,7 @@ def get_ids(pw):
     """Reads credentials to kblab API betalab and returns all matches in the API for the 'Dagens nyheter' search'"""
     a = Archive('https://betalab.kb.se', auth=("demo", pw))
     ids = []
-    for package_id in a.search({'label': 'DAGENS NYHETER'}, max=20):
+    for package_id in a.search({'label': 'DAGENS NYHETER'}, max=40):
         ids.append(package_id)
     return ids
 
