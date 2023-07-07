@@ -28,14 +28,14 @@ def process_text(text):
     return text
 
 
-def main():
+def main(args):
   
-    with open('topic_modelling/pclda_input/input.txt') as f:
+    with open(args.input_path) as f:
         n = sum(1 for line in f)
 
     # Reader and writer
-    with open('topic_modelling/pclda_input/input_clean.txt', "w") as writer, pd.read_csv(
-        'topic_modelling/pclda_input/input.txt', sep="\t", header=None, chunksize=1000, dtype=str
+    with open(args.output_path, "w") as writer, pd.read_csv(
+        args.input_path, sep="\t", header=None, chunksize=1000, dtype=str
     ) as reader:
         # Clean and write data in chunks
         for chunk in reader:
@@ -44,5 +44,9 @@ def main():
             writer.write("\n".join(txt))
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Process corpus and Westac Hub files directories.')
+    parser.add_argument('--input_path', type=str, help='Path to input.txt', default='topic_modelling/pclda_input/input.txt')
+    parser.add_argument('--output_path', type=str, help='Path to input.txt', default='topic_modelling/pclda_input/input_clean.txt')
+    args = parser.parse_args()
+    main(args)
