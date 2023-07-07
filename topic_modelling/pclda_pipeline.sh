@@ -1,31 +1,55 @@
 #!/bin/sh
-# Shell script to get westac hub files from epubs
+# reads in epubs in a pipeline and outputs topic model bundle
 
 BASE_DIR=~/Documents/jobb
+
+cd "$BASE_DIR/dagens_nyheter"
 
 # get input.txt and documents.csv from epubs
 python3 topic_modelling/scripts/generate_inputs.py
 
+[ -s topic_modelling/pclda_input/input.txt ] || \
+{ echo "input.txt from generate_inputs.py does not exist or is empty."; exit 1; }
+
 # preprocess input.txt
 python3 topic_modelling/scripts/preprocess.py
 
-cp topic_modelling/pclda_input/* "$BASE_DIR/PartiallyCollapsedLDA/"
+[ -s topic_modelling/pclda_input/input_clean.txt ] || \
+{ echo "input_clean.txt from preprocess.py does not exist or is empty."; exit 1; }
+
+rm -rf "$BASE_DIR/PartiallyCollapsedLDA/pclda_input"
+mkdir "$BASE_DIR/PartiallyCollapsedLDA/pclda_input"
+
+cp topic_modelling/pclda_input/* "$BASE_DIR/PartiallyCollapsedLDA/pclda_input"
 
 #move to run model
-cd "$BASE_DIR/PartiallyCollapsedLDA/"
+cd "$BASE_DIR/PartiallyCollapsedLDA"
 
 # run pclda topic model on inputs.py to generate z_files
-java -cp target/PCPLDA-9.2.2.jar cc.mallet.topics.tui.ParallelLDA --run_cfg=dn_config.cfg
+java -cp target/PCPLDA-9.2.2.jar cc.mallet.topics.tui.ParallelLDA --run_cfg=pclda_input/dn_config.cfg
 
-if [ -z "$(ls -A Runs)" ]; then
-   echo 'Runs dir is empty'
-   exit 1
+if [ -z "$(ls -A $BASE_DIR/PartiallyCollapsedLDA/Runs)" ]; then
+  echo "Runs dir is empty"
+  exit 1
 fi
 
 cd "$BASE_DIR/dagens_nyheter/"
 
 # move relevant z files into z_files dir
-python3 topic_modelling/scripts/pick_z_files.py
+python3 topic_modelling/scripts/pick_z_files.py --path_pclda_runs="$BASE_DIR/PartiallyCollapsedLDA/Runs"
 
 # run humlabs pipeline on z_files
 python3 "$BASE_DIR//PCLDA-pipeline/pclda_pipeline/convert.py" topic_modelling/z_files/*.csv --target-folder=topic_modelling/westac_hub_files
+
+# test to unzip and check content
+mkdir temp_for_zip_extract
+unzip topic_modelling/westac_hub_files/\*.zip -d temp_for_zip_extract
+ls temp_for_zip_extract
+
+cd temp_for_zip_extract
+
+files=$(ls)
+for file in "$files"; do
+  [ -s "$file" ] || { echo "$file does not exist or is empty."; exit 1; }
+done
+rm -r temp_for_zip_extract

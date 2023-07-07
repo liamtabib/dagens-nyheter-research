@@ -5,8 +5,6 @@ import random
 import argparse
 from tqdm import tqdm
 import re
-from pathlib import Path
-
 
 def multiple_replace(text, i_start=192, i_end=383):
     d = [chr(c) for c in range(i_start, i_end + 1)]
@@ -29,7 +27,6 @@ def process_text(text):
 
 
 def main(args):
-  
     with open(args.input_path) as f:
         n = sum(1 for line in f)
 

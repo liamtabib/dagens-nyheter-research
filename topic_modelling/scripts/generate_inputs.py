@@ -11,8 +11,7 @@ def to_zip(data: pd.DataFrame, filename: str, archive_name: str, **csv_opts) -> 
     data.to_csv(filename, compression=dict(method='zip', archive_name=archive_name), **csv_opts)
 
 def read_year(corpus_path,identifier):
-    """ reads in an identifier for the dagens nyheter utgåva and finds the utgivnings year inside the metadata file """
-    # find the path of the right metadata file
+    """ reads in an id dagens nyheter edition, returns the creation year """
     pathlist = Path(corpus_path).rglob(f'{identifier}_meta.json')
     for path in pathlist:
         with path.open('r', encoding='utf-8') as f:
@@ -23,12 +22,8 @@ def read_year(corpus_path,identifier):
         
 
 def main(args):
-    """ reads in the dagens nyheter in epub format,
-        and stores the content of each article as a row
-        to an input.txt file, along with the columns of article index and placeholder.
-        Moreover, it also assigns indices to each article/document along with the year,
-        to documents.csv """
-    # path to all epub xml content files
+    """ reads in the dagens nyheter epub and iterates over all articles, storing the content as a row inside input.txt.
+        Moreover, it also assigns indices to each article/document along with the year to documents.csv """
     pathlist = Path(args.corpus_path).rglob('content.xhtml')
     txt_rows=[]
     csv_rows=[]

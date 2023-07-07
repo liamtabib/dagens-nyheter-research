@@ -7,8 +7,7 @@ import os
 import shutil
 
 def latest_runsuite(Path_to_runs_dir):
-    """ reads in path to directory of the runs of pclda model, and returns the most recent model run sub-directory """
-    # append * to path
+    """ function to pick and return the most recent directory of PCLDA model run output """
     if Path_to_runs_dir.split('/')[-1]=='':
         Path_to_runs_dir=Path_to_runs_dir+'*'
     elif Path_to_runs_dir.split('/')[-1]=='Runs':
@@ -31,7 +30,6 @@ def latest_runsuite(Path_to_runs_dir):
 
 
 def main(args):
-    #make directory
     dir_tree=args.path_to_topic_model_dir.split('/')
     if dir_tree[-1]=='':
         z_files_dir = args.path_to_topic_model_dir + 'z_files/'
@@ -45,7 +43,7 @@ def main(args):
         shutil.rmtree(z_files_dir)
     os.makedirs(z_files_dir)
 
-    runsuite_path=latest_runsuite(args.path_pclda_runs_dir)
+    runsuite_path=latest_runsuite(args.path_pclda_runs)
 
     p = Path(runsuite_path)
 
@@ -60,7 +58,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--path_pclda_runs_dir", "-p1", type=str, default='/Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/Runs')
-    parser.add_argument("--path_to_topic_model_dir", "-p2", type=str, default='/Users/liamtabibzadeh/Documents/jobb/dagens_nyheter/topic_modelling')    
+    parser.add_argument("--path_pclda_runs", "-p1", type=str, default='/Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/Runs')
+    parser.add_argument("--path_to_topic_model_dir", "-p2", type=str, default='topic_modelling')    
     args = parser.parse_args()
     main(args)

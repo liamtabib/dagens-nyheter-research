@@ -7,16 +7,15 @@ import json
 import argparse
 
 def get_ids(pw):
-    """Reads credentials to kblab API betalab and returns all matches in the API for the 'Dagens nyheter' search'"""
+    """returns all IDs of the matches in the betalab API for the 'Dagens nyheter' search'"""
     a = Archive('https://betalab.kb.se', auth=("demo", pw))
     ids = []
-    for package_id in a.search({'label': 'DAGENS NYHETER'}, max=40):
+    for package_id in a.search({'label': 'DAGENS NYHETER'}, max=4):
         ids.append(package_id)
     return ids
 
 def store_files(package_id, pw, p):
-    """ Reads an id of a specific package, kb credentials, and a directory to store the resulting json files.
-        Stores content files, metadata files, and structure files.
+    """ Reads an id of a specific edition and stores content files, metadata files, and structure files.
     """
     try:
         meta = requests.get(f"https://betalab.kb.se/{package_id}/meta.json", auth=HTTPBasicAuth("demo", pw))
@@ -31,7 +30,6 @@ def store_files(package_id, pw, p):
         file_name_meta = package_id + '_meta.json'
         file_name_content = package_id + '_content.json'
         file_name_structure = package_id + '_structure.json'
-
 
         filepath_meta = p / file_name_meta
         filepath_content = p / file_name_content
@@ -56,6 +54,7 @@ def main(args):
         pw = file.read().replace('\n', '')
 
     ids = get_ids(pw)
+    #parallelized download process
     with multiprocessing.Pool() as pool:
         pool.starmap(store_files, [(package_id, pw, p) for package_id in ids])
 

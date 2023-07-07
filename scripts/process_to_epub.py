@@ -8,10 +8,6 @@ import base58
 import hashlib
 
 def get_formatted_uuid(seed=None):
-    """ returns a uuid
-    Args:
-        seed (optional) : seed 
-    """
     if seed is None:
         x = uuid.uuid4()
     else:
@@ -23,32 +19,35 @@ def get_formatted_uuid(seed=None):
 
 
 def compute_header_treshold(raw_file,quantile=0.80):
-    """ reads in a content_json file of dagens nyheter, and computes the quantile of all the sizes of the words within that file.
+    """ read a content_json, and takes the q'th quantile the distribution of the font size of the words.
     Args:
-        raw_file : content_json file 
-        quantile : the q'th quantile in [0,1]. The larger this number is chosen, will result in less number of headers and subsequently less articles/documents.
+        raw_file : content_json file of dagens nyheter.
+        quantile : the q'th quantile in the interval [0,1]. 
     """
     size=[]
     for block in raw_file:
+        #if empty content do nothing
         if block['content']=='':
             pass
+        #otherwise take the sizes of the content
         else:
             font_information=block['font']
             for font in font_information:
                 size.append(font['size'])
-    
+    #from string to float
     size=list(map(float,size))
     try:
+        #numpy quantile
         return np.quantile(size,quantile)
     except Exception as e:
         raise Exception(f"An error occurred while computing the header threshold: {str(e)}")
 
 
 def is_article(block,header_treshold):
-    """ reads in text block from the content_json raw file, and a treshold for determining whether there is a header inside.
-        on the basis of the font sizes if it includes a font size above the treshold, and font styles, it returns a boolean,
-        indicating if this text block is the start of an article. All subsequent text blocks that are not articles will be 
-        considered as text inside the last text block considered as article.
+    """ reads in a text block inside content_json file, and determines whether it indicates that an article is starting,
+    based on the treshold computed from the entire dagens nyheter newspaper. i.e. check if the block contains content that
+    is larger than treshold. All subsequent text blocks that are not articles will be considered as text under the last found
+     article.
     """
     font_information=block['font']
     num_words_in_block=len(block['content'].split(' '))
@@ -63,6 +62,7 @@ def is_article(block,header_treshold):
         
     #get top font size
     max_size=max(list(map(float,block_font_sizes)))
+    #choose a set of criterion to determine whether it is the start of an article
     #if 'Arial' in block_font_families and max_size>header_treshold and num_words_in_block>30:
     if max_size>header_treshold and num_words_in_block>47:
         return True
@@ -70,10 +70,10 @@ def is_article(block,header_treshold):
 
 
 def page_link_structure(identifier):
-    """ takes in an id for a dagens nyheter utgåva, and returns how the url for the image of a page/text block inside betalab is structured.
+    """ reads in a dagens nyheter edition id and returns the general shape of the image url in betalab.
     """
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
-
+    #grab the structure file of the edition id
     structure_file = json_dir_path.glob(f'{identifier}_structure.json')
 
     for file in structure_file:
@@ -85,9 +85,8 @@ def page_link_structure(identifier):
 
 
 def json_to_xml(raw_file):
-    """ reads in a json content file of a dagens nyheter utgåva, and creates an xml object,
-        iteratively populating the object with each text block that is not empty,
-        effectively creating a hierarchy based on whenever an article is identified.
+    """ reads a json content, and builds an xml object,
+        by parsing each text block into appropriate elements on the basis of article identification.
     """
     root=etree.Element('text')
     div_element=etree.SubElement(root,'div')
@@ -183,15 +182,15 @@ def main():
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
 
     content_files = json_dir_path.glob('*_content.json')
-
     for file in content_files:
-
         with file.open('r', encoding='utf-8') as f:
             raw_content_json = json.load(f)
+            #build an xml file
             epub_content = json_to_xml(raw_content_json)
+            #grab the name
             epub_name=file.stem.split('_')[0]
+            #download the epub
             save_epub(epub_content,epub_name,epub_dir_path)
-
 
 if __name__ == '__main__':
     main()
