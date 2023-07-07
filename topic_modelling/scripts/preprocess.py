@@ -33,20 +33,22 @@ def main(args):
     with open(args.input_path) as f:
         n = sum(1 for line in f)
 
+    output_path=args.input_path.replace(".txt", "_clean.txt")
+
     # Reader and writer
-    with open(args.output_path, "w") as writer, pd.read_csv(
-        args.input_path, sep="\t", header=None, chunksize=1000, dtype=str
+    with open(output_path, "w") as writer, pd.read_csv(
+        args.input_path, sep="\t", header=None, chunksize=args.chunksize, dtype=str
     ) as reader:
         # Clean and write data in chunks
-        for chunk in reader:
+        for chunk in tqdm(reader, total=n // args.chunksize):
             chunk.iloc[:, 2] = chunk.iloc[:, 2].apply(process_text)
             txt = ["\t".join(row) for row in chunk.values.tolist()]
             writer.write("\n".join(txt))
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process corpus and Westac Hub files directories.')
     parser.add_argument('--input_path', type=str, help='Path to input.txt', default='topic_modelling/pclda_input/input.txt')
-    parser.add_argument('--output_path', type=str, help='Path to input.txt', default='topic_modelling/pclda_input/input_clean.txt')
+    parser.add_argument("--chunksize", "-c", type=int, default=1000)
+
     args = parser.parse_args()
     main(args)
