@@ -44,7 +44,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process corpus and Westac Hub files directories.')
-    parser.add_argument('--input_path', type=str, help='Path to input.txt', default='topic_modelling/pclda_input/input.txt')
+    parser.add_argument('--input_path', type=str, help='Path to input.txt', default='topic_modelling/input.txt')
     parser.add_argument("--chunksize", "-c", type=int, default=1000)
 
     args = parser.parse_args()
