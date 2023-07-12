@@ -6,7 +6,7 @@ from ebooklib import epub
 import uuid
 import base58
 import hashlib
-
+import multiprocessing
 def get_formatted_uuid(seed=None):
     if seed is None:
         x = uuid.uuid4()
@@ -50,7 +50,7 @@ def is_article(block,header_treshold):
      article.
     """
     font_information=block['font']
-    num_words_in_block=len(block['content'].split(' '))
+    num_words_in_block=len(block['content'].split())
 
     block_font_sizes=[]
     block_font_styles=[]
@@ -174,6 +174,15 @@ def save_epub(epub_content,epub_name,epub_dir):
         zip_ref.extractall(newpath)
     Path(f"{epub_name}.epub").unlink()
 
+def process_content_file(file):
+    with file.open('r', encoding='utf-8') as f:
+        raw_content_json = json.load(f)
+        #build an xml file
+        epub_content = json_to_xml(raw_content_json)
+        #grab the name
+        epub_name=file.stem.split('_')[0]
+        #download the epub
+        save_epub(epub_content,epub_name,Path("corpus/epubs/"))
 
 def main():
     epub_dir_path = Path("corpus/epubs/")
@@ -181,16 +190,9 @@ def main():
 
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
 
-    content_files = json_dir_path.glob('*_content.json')
-    for file in content_files:
-        with file.open('r', encoding='utf-8') as f:
-            raw_content_json = json.load(f)
-            #build an xml file
-            epub_content = json_to_xml(raw_content_json)
-            #grab the name
-            epub_name=file.stem.split('_')[0]
-            #download the epub
-            save_epub(epub_content,epub_name,epub_dir_path)
+    content_files = list(json_dir_path.glob('*_content.json'))
+    with multiprocessing.Pool() as pool:
+        pool.map(process_content_file, content_files)
 
 if __name__ == '__main__':
     main()
