@@ -6,11 +6,11 @@ import multiprocessing
 import json
 import argparse
 
-def get_ids(pw):
+def get_ids(pw,n_editions):
     """returns all IDs of the matches in the betalab API for the 'Dagens nyheter' search'"""
     a = Archive('https://betalab.kb.se', auth=("demo", pw))
     ids = []
-    for package_id in a.search({'label': 'DAGENS NYHETER'}, max=4):
+    for package_id in a.search({'label': 'DAGENS NYHETER'},max=n_editions):
         ids.append(package_id)
     return ids
 
@@ -52,15 +52,20 @@ def main(args):
     p.mkdir(parents=True, exist_ok=True)
     with open(args.path_kb_cred, 'r') as file:
         pw = file.read().replace('\n', '')
-
-    ids = get_ids(pw)
-    #parallelized download process
-    with multiprocessing.Pool() as pool:
-        pool.starmap(store_files, [(package_id, pw, p) for package_id in ids])
+    
+    ids = get_ids(pw,args.number_of_editions)
+    try:
+        with multiprocessing.Pool() as pool:
+            pool.starmap(store_files, [(package_id, pw, p) for package_id in ids])
+            print(f'sucessfully downloaded {len(ids)} editions')
+    except Exception as e:
+        print(str(e))
+    
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path_kb_cred", type=str, default="/Users/liamtabibzadeh/Documents/jobb/kb_credentials.txt")
+    parser.add_argument("--number_of_editions", type=str, default=80)
     args = parser.parse_args()
     main(args)

@@ -45,7 +45,7 @@ def compute_header_treshold(raw_file,quantile=0.80):
 
 def is_article(block,header_treshold):
     """ reads in a text block inside content_json file, and determines whether it indicates that an article is starting,
-    based on the treshold computed from the entire dagens nyheter newspaper. i.e. check if the block contains content that
+    based on a few heuristics, including the treshold computed from the entire edition. i.e. check if the block contains content that
     is larger than treshold. All subsequent text blocks that are not articles will be considered as text under the last found
      article.
     """
