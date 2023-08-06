@@ -2,23 +2,11 @@ import pandas as pd
 from lxml import etree
 import xml.etree.ElementTree as ET
 from pathlib import Path
-import json
 import os
 import shutil
 
 def to_zip(data: pd.DataFrame, filename: str, archive_name: str, **csv_opts) -> None:
     data.to_csv(filename, compression=dict(method='zip', archive_name=archive_name), **csv_opts)
-
-def read_year(identifier):
-    """ reads in an id dagens nyheter edition, returns the creation year """
-    pathlist = Path('corpus/json_Dagens_nyheter/').glob(f'{identifier}_meta.json')
-    for path in pathlist:
-        with path.open('r', encoding='utf-8') as f:
-
-                raw_metadata = json.load(f)
-
-                return raw_metadata['year']
-        
 
 def main():
     """ reads in the dagens nyheter epub and iterates over all articles, storing the content as a row inside input.txt.
@@ -29,10 +17,10 @@ def main():
     article_index=0
 
     for path in pathlist:
+        year = path.parts[2]
         #get the identifier of utgåva
         edition_id=path.parent.parent.stem
         tree = ET.ElementTree(etree.parse(path))
-        year = read_year(edition_id)
         #iterate through each <div type='article'> element
         for div_article in tree.iterfind(".//{http://www.w3.org/1999/xhtml}div[@type='article']"):
             article_content = ""
@@ -49,13 +37,13 @@ def main():
             csv_rows.append(csv_row)
             article_index+=1
 
-    with open('topic_modelling/input.txt', 'w') as f:
+    with open('topic-modelling/input.txt', 'w') as f:
         for row in txt_rows:
             f.write('\t'.join(row))
             f.write('\n')
     df = pd.DataFrame(csv_rows, columns=["article_name", "article_index", "year"])
 
-    westac_hub_dir_path='topic_modelling/westac_hub_files'
+    westac_hub_dir_path='topic-modelling/westac_hub_files'
 
     if os.path.exists(westac_hub_dir_path):
         shutil.rmtree(westac_hub_dir_path)

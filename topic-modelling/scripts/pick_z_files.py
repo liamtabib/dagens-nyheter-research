@@ -33,7 +33,7 @@ def main(args):
     dir_tree=args.path_to_topic_model_dir.split('/')
     if dir_tree[-1]=='':
         z_files_dir = args.path_to_topic_model_dir + 'z_files/'
-    elif dir_tree[-1]=='topic_modelling':
+    elif dir_tree[-1]=='topic-modelling':
         z_files_dir = args.path_to_topic_model_dir + '/z_files/'
     else:
         print('bad path to topic modelling dir')
@@ -59,6 +59,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path_pclda_runs", "-p1", type=str, default='/Users/liamtabibzadeh/Documents/jobb/PartiallyCollapsedLDA/Runs')
-    parser.add_argument("--path_to_topic_model_dir", "-p2", type=str, default='topic_modelling')    
+    parser.add_argument("--path_to_topic_model_dir", "-p2", type=str, default='topic-modelling')    
     args = parser.parse_args()
     main(args)

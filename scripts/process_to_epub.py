@@ -7,6 +7,8 @@ import uuid
 import base58
 import hashlib
 import multiprocessing
+import os
+
 def get_formatted_uuid(seed=None):
     if seed is None:
         x = uuid.uuid4()
@@ -74,7 +76,7 @@ def page_link_structure(identifier):
     """
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
     #grab the structure file of the edition id
-    structure_file = json_dir_path.glob(f'{identifier}_structure.json')
+    structure_file = json_dir_path.rglob(f'{identifier}_structure.json')
 
     for file in structure_file:
         with file.open('r', encoding='utf-8') as f:
@@ -174,6 +176,14 @@ def save_epub(epub_content,epub_name,epub_dir):
         zip_ref.extractall(newpath)
     Path(f"{epub_name}.epub").unlink()
 
+    
+def count_files():
+    years=list(Path('corpus/epubs/').glob('*'))
+    for year in years:
+        n_epubs=len(list(Path(year).glob('*')))
+        print(f'{year.name} has {n_epubs} epubs')
+
+
 def process_content_file(file):
     with file.open('r', encoding='utf-8') as f:
         raw_content_json = json.load(f)
@@ -181,8 +191,16 @@ def process_content_file(file):
         epub_content = json_to_xml(raw_content_json)
         #grab the name
         epub_name=file.stem.split('_')[0]
+
+        year=file.parent.name
+        year_path =f'corpus/epubs/{year}'
+        if os.path.exists(year_path):
+            pass
+        else:
+            os.makedirs(year_path)
         #download the epub
-        save_epub(epub_content,epub_name,Path("corpus/epubs/"))
+        save_epub(epub_content,epub_name,Path(year_path))
+
 
 def main():
     epub_dir_path = Path("corpus/epubs/")
@@ -190,9 +208,11 @@ def main():
 
     json_dir_path = Path('corpus/json_Dagens_nyheter/')
 
-    content_files = list(json_dir_path.glob('*_content.json'))
+    content_files = list(json_dir_path.rglob('*_content.json'))
     with multiprocessing.Pool() as pool:
         pool.map(process_content_file, content_files)
+    #count epubs
+    count_files()
 
 if __name__ == '__main__':
     main()

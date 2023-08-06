@@ -5,6 +5,7 @@ from pathlib import Path
 import multiprocessing
 import json
 import argparse
+import os
 
 def get_ids(pw,n_editions):
     """returns all IDs of the matches in the betalab API for the 'Dagens nyheter' search'"""
@@ -31,9 +32,18 @@ def store_files(package_id, pw, p):
         file_name_content = package_id + '_content.json'
         file_name_structure = package_id + '_structure.json'
 
-        filepath_meta = p / file_name_meta
-        filepath_content = p / file_name_content
-        filepath_structure = p / file_name_structure
+        year=meta['year']
+
+        year_path= p / year
+
+        if os.path.exists(year_path):
+            pass
+        else:
+            os.makedirs(year_path)
+
+        filepath_meta = year_path / file_name_meta
+        filepath_content = year_path / file_name_content
+        filepath_structure = year_path / file_name_structure
 
         with filepath_meta.open("w", encoding="utf-8") as f:
             json.dump(meta, f, indent=2)
@@ -47,6 +57,23 @@ def store_files(package_id, pw, p):
     except Exception as e:
         print(f"Error occurred for package ID: {package_id} - {str(e)}")
 
+def count_files():
+    n_files=len(list(Path('corpus/json_Dagens_nyheter/').rglob('*.json')))
+    n_structure_files=len(list(Path('corpus/json_Dagens_nyheter/').rglob('*structure.json')))
+    n_content_files=len(list(Path('corpus/json_Dagens_nyheter/').rglob('*content.json')))
+    n_meta_files=len(list(Path('corpus/json_Dagens_nyheter/').rglob('*meta.json')))
+    print(f'there are {n_files} raw json files in total, of which {n_content_files} are content type,\
+    {n_structure_files} are structure type, and {n_meta_files} are metadata type')
+    years=list(Path('corpus/json_Dagens_nyheter/').glob('*'))
+
+    for year in years:
+        n_structure_files=len(list(Path(year).glob('*structure.json')))
+        n_content_files=len(list(Path(year).glob('*content.json')))
+        n_meta_files=len(list(Path(year).glob('*meta.json')))
+        assert n_structure_files == n_content_files == n_meta_files
+        print(f'{year.name} has {n_content_files} editions')
+
+
 def main(args):
     p = Path("corpus/json_Dagens_nyheter/")
     p.mkdir(parents=True, exist_ok=True)
@@ -57,15 +84,15 @@ def main(args):
     try:
         with multiprocessing.Pool() as pool:
             pool.starmap(store_files, [(package_id, pw, p) for package_id in ids])
-            print(f'sucessfully downloaded {len(ids)} editions')
     except Exception as e:
         print(str(e))
     
+    count_files()
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path_kb_cred", type=str, default="/Users/liamtabibzadeh/Documents/jobb/kb_credentials.txt")
-    parser.add_argument("--number_of_editions", type=str, default=80)
+    parser.add_argument("--number_of_editions", type=str, default=10)
     args = parser.parse_args()
     main(args)
