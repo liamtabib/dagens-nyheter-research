@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="id" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <meta property="dcterms:modified">2023-08-06T21:24:13Z</meta>
+    <meta property="dcterms:modified">2023-08-08T10:14:06Z</meta>
     <meta name="generator" content="Ebook-lib 0.18.1"/>
     <dc:identifier id="id">dark-3705712</dc:identifier>
     <dc:title>Sample book</dc:title>

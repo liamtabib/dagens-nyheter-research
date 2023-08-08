@@ -86,17 +86,23 @@ def page_link_structure(identifier):
     return link_structure
 
 
-def json_to_xml(raw_file):
-    """ reads a json content, and builds an xml object,
+def json_to_xml(json_content_path):
+    """ reads a json content path, and builds an xml object,
         by parsing each text block into appropriate elements on the basis of article identification.
     """
+    with json_content_path.open('r', encoding='utf-8') as f:
+        raw_file = json.load(f)
+        
+    #get the general shape of the page link
+    identifier=json_content_path.stem.split('_')[0]
+    page_link_shape=page_link_structure(identifier)
+    
     root=etree.Element('text')
     div_element=etree.SubElement(root,'div')
     div_element.set('type','preface')
     
     page_number='-1'
     header_treshold=compute_header_treshold(raw_file)
-
     for block in raw_file:
     
         block_content=block['content']
@@ -106,9 +112,6 @@ def json_to_xml(raw_file):
             pass
         
         else:
-            #get the general shape of the page link
-            identifier=block['@id'].split('#')[0].split('/')[-1]
-            page_link_shape=page_link_structure(identifier)
             
             if is_article(block,header_treshold):
                 div_element=etree.SubElement(root,'div')
@@ -185,14 +188,11 @@ def count_files():
 
 
 def process_content_file(file):
-    with file.open('r', encoding='utf-8') as f:
-        raw_content_json = json.load(f)
         #build an xml file
-        epub_content = json_to_xml(raw_content_json)
+        epub_content = json_to_xml(file)
         #grab the name
         epub_name=file.stem.split('_')[0]
-
-        year=file.parent.name
+        year=file.parent.parent.name
         year_path =f'corpus/epubs/{year}'
         if os.path.exists(year_path):
             pass

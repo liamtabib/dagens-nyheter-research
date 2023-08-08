@@ -40,10 +40,16 @@ def store_files(package_id, pw, p):
             pass
         else:
             os.makedirs(year_path)
+        edition_path = year_path / package_id
 
-        filepath_meta = year_path / file_name_meta
-        filepath_content = year_path / file_name_content
-        filepath_structure = year_path / file_name_structure
+        if os.path.exists(edition_path):
+            pass
+        else:
+            os.makedirs(edition_path)
+        
+        filepath_meta = edition_path / file_name_meta
+        filepath_content = edition_path / file_name_content
+        filepath_structure = edition_path / file_name_structure
 
         with filepath_meta.open("w", encoding="utf-8") as f:
             json.dump(meta, f, indent=2)
@@ -66,12 +72,16 @@ def count_files():
     {n_structure_files} are structure type, and {n_meta_files} are metadata type')
     years=list(Path('corpus/json_Dagens_nyheter/').glob('*'))
 
+    d={}
     for year in years:
-        n_structure_files=len(list(Path(year).glob('*structure.json')))
-        n_content_files=len(list(Path(year).glob('*content.json')))
-        n_meta_files=len(list(Path(year).glob('*meta.json')))
+        n_structure_files=len(list(Path(year).rglob('*structure.json')))
+        n_content_files=len(list(Path(year).rglob('*content.json')))
+        n_meta_files=len(list(Path(year).rglob('*meta.json')))
         assert n_structure_files == n_content_files == n_meta_files
+        d[int(year.name)]=n_content_files
+    for year , n_files in sorted(d.items()):
         print(f'{year.name} has {n_content_files} editions')
+
 
 
 def main(args):
@@ -93,6 +103,6 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path_kb_cred", type=str, default="/Users/liamtabibzadeh/Documents/jobb/kb_credentials.txt")
-    parser.add_argument("--number_of_editions", type=str, default=10)
+    parser.add_argument("--number_of_editions", type=str, default=80)
     args = parser.parse_args()
     main(args)
