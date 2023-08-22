@@ -5,6 +5,7 @@ import json
 import nltk
 import time
 import multiprocessing
+import regex
 def align_block(xml_block , json_edition ,current_page):
     #json_edition is a parsed json file into dict
     
@@ -42,7 +43,11 @@ def align_block(xml_block , json_edition ,current_page):
 
     return correct_json_block
 
-     
+def test_regex_alignment(textline , block):
+
+    corrected_textline = regex.search(textline, block, flags=regex.BESTMATCH)
+    return corrected_textline.group()
+
 def align_textline(textline , block):
 
     if len(textline) >= len(block):
@@ -69,7 +74,6 @@ def align_textline(textline , block):
 
     return corrected_textline
 
-
     
 def segment(path_edition):
 
@@ -80,7 +84,7 @@ def segment(path_edition):
     current_page = '1'
     
     #find the correct json edition based on identifier
-    json_dir_path = Path('corpus/json_Dagens_nyheter/')
+    json_dir_path = Path('files/raw_json/')
     path_json_editions = json_dir_path.rglob(f'{identifier}_content.json')
 
     for x in path_json_editions:
@@ -115,7 +119,7 @@ def segment(path_edition):
                             fetch_word = ''
                     else:
                         fetch_word = word.attrib.get('CONTENT')
-                    textline_content.append(fetch_word) 
+                    textline_content.append(fetch_word)
                 textline_content = ' '.join(textline_content)
                 corrected_textline = align_textline(textline_content,correct_json_block)
                 
@@ -125,10 +129,8 @@ def process_content_file(path_edition):
     segment(path_edition)
 
 def main():
-    epub_dir_path = Path("corpus/epubs_xml/")
-    epub_dir_path.mkdir(parents=True, exist_ok=True)
 
-    xml_dir_path = Path('corpus/raw_xml/')
+    xml_dir_path = Path('files/raw_xml/')
 
     path_editions = list(xml_dir_path.glob('*/*'))
     for x in path_editions:

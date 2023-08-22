@@ -76,7 +76,7 @@ def compute_header_treshold(xml_paths,quantile=0.90):
 def page_link_structure(identifier):
     """ reads in a dagens nyheter edition id and returns the general shape of the image url in betalab.
     """
-    json_dir_path = Path('corpus/json_Dagens_nyheter/')
+    json_dir_path = Path('../dn-extra/files/raw_json/')
     #grab the structure file of the edition id
     structure_file = json_dir_path.rglob(f'{identifier}_structure.json')
 
@@ -255,9 +255,10 @@ def main():
     epub_dir_path = Path("corpus/epubs_xml/")
     epub_dir_path.mkdir(parents=True, exist_ok=True)
 
-    xml_dir_path = Path('corpus/raw_xml/')
+    xml_dir_path = Path('../dn-extra/files/raw_xml/')
 
-    path_editions = list(xml_dir_path.glob('*/*'))
+    path_editions = list(xml_dir_path.glob('*/dark-*'))
+    
     with multiprocessing.Pool() as pool:
        pool.map(process_content_file, path_editions)
     #count epubs

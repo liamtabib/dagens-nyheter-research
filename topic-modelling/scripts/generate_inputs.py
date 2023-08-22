@@ -11,7 +11,7 @@ def to_zip(data: pd.DataFrame, filename: str, archive_name: str, **csv_opts) -> 
 def main():
     """ reads in the dagens nyheter epub and iterates over all articles, storing the content as a row inside input.txt.
         Moreover, it also assigns indices to each article/document along with the year to documents.csv """
-    pathlist = Path('corpus/epubs/').rglob('content.xhtml')
+    pathlist = Path('corpus/epubs_json/').rglob('content.xhtml')
     txt_rows=[]
     csv_rows=[]
     article_index=0

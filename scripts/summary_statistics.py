@@ -4,7 +4,7 @@ import numpy as np
 
 
 def font_information():
-    content_files = Path('corpus/json_Dagens_nyheter/').rglob('*content.json')
+    content_files = Path('files/raw_json/').rglob('*content.json')
     for file in content_files:
         d = {}
         d_num={}

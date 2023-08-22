@@ -74,7 +74,7 @@ def is_article(block,header_treshold):
 def page_link_structure(identifier):
     """ reads in a dagens nyheter edition id and returns the general shape of the image url in betalab.
     """
-    json_dir_path = Path('corpus/json_Dagens_nyheter/')
+    json_dir_path = Path('files/raw_json/')
     #grab the structure file of the edition id
     structure_file = json_dir_path.rglob(f'{identifier}_structure.json')
 
@@ -181,7 +181,7 @@ def save_epub(epub_content,epub_name,epub_dir):
 
     
 def count_files():
-    years=list(Path('corpus/epubs/').glob('*'))
+    years=list(Path('corpus/epubs_json/').glob('*'))
     for year in years:
         n_epubs=len(list(Path(year).glob('*')))
         print(f'{year.name} has {n_epubs} epubs')
@@ -193,7 +193,7 @@ def process_content_file(file):
         #grab the name
         epub_name=file.stem.split('_')[0]
         year=file.parent.parent.name
-        year_path =f'corpus/epubs/{year}'
+        year_path =f'corpus/epubs_json/{year}'
         if os.path.exists(year_path):
             pass
         else:
@@ -203,10 +203,10 @@ def process_content_file(file):
 
 
 def main():
-    epub_dir_path = Path("corpus/epubs/")
+    epub_dir_path = Path("corpus/epubs_json/")
     epub_dir_path.mkdir(parents=True, exist_ok=True)
 
-    json_dir_path = Path('corpus/json_Dagens_nyheter/')
+    json_dir_path = Path('files/raw_json/')
 
     content_files = list(json_dir_path.rglob('*_content.json'))
     with multiprocessing.Pool() as pool:
