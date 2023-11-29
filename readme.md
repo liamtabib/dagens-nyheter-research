@@ -1,9 +1,19 @@
-The curation and analysis of Dagens Nyheter corpus:
+# Dagens Nyheter
 
-/scripts: Scripts to download and segment the raw json files into xhtml
-download_dn.py: this script searches inside kblab betalab API and downloads all files associated with all available utgåvor.
-process_to_epub.py: this script processes the downloaded files and returns epubs.
+The curation and analysis of Dagens Nyheter corpus
 
-/quality-control: Annotation of gold standard set for quality-control of segmentation of articles
+### scripts/ 
 
-/topic-modelling: performs topic model on articles
+Scripts to download json files segment various sections into xml-standard EPUB.
+
+* `download_dn.py`: this script searches inside the Kblab API and fetches all dn-files associated with a specified time period.
+* `process_to_epub.py`: this script segments and processes the files and outputs Epub files.
+
+### quality-control/ 
+
+This directory contains the quality control of two dimensions within the curation of the corpus: namely the quality of the segmentation of articles in dagens-nyheter, found inside `article-segmentation/` and that of the OCR quality, found inside `ocr-estimation/`.
+
+### topic-modelling/
+
+This directory contains the scripts to run a full topic modelling pipeline with Latent Dirichlet Allocation (LDA) on processed dagens nyheter corpus.
+
