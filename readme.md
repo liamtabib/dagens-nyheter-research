@@ -13,6 +13,11 @@ Scripts to download json files segment various sections into xml-standard EPUB.
 
 This directory contains the quality control of two dimensions within the curation of the corpus: namely the quality of the segmentation of articles in dagens-nyheter, found inside `article-segmentation/` and that of the OCR quality, found inside `ocr-estimation/`.
 
+### unit-tests/ 
+
+Unit tests to check that the scripts are working correctly.
+
+
 ### topic-modelling/
 
 This directory contains the scripts to run a full topic modelling pipeline with Latent Dirichlet Allocation (LDA) on processed dagens nyheter corpus.
