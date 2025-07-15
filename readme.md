@@ -1,24 +1,100 @@
-# Dagens Nyheter
+# Dagens Nyheter Research
 
-The curation and analysis of Dagens Nyheter corpus
+The curation and analysis of Dagens Nyheter corpus for historical newspaper research.
 
-### scripts/ 
+## Setup
 
-Scripts to download json files segment various sections into xml-standard EPUB.
+1. Install Python 3.8+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-* `download_dn.py`: this script searches inside the Kblab API and fetches all dn-files associated with a specified time period.
-* `process_to_epub.py`: this script segments and processes the files and outputs Epub files.
+## Project Structure
 
-### quality-control/ 
+### src/
 
-This directory contains the quality control of two dimensions within the curation of the corpus: namely the quality of the segmentation of articles in dagens-nyheter, found inside `article-segmentation/` and that of the OCR quality, found inside `ocr-estimation/`.
+Core document processing pipeline for JSON to EPUB conversion.
 
-### unit-tests/ 
+* `json_to_epub_converter.py`: Main converter - segments and processes JSON content files into structured EPUB files
+* `xml_to_epub_converter.py`: XML processing variant for alternative input formats
+* `summary_statistics.py`: Generates corpus statistics and analytics
+* `test_textline_mapping.py`: Tests text line mapping functionality
+* `update_tesseract.py`: Updates Tesseract OCR configuration
 
-Unit tests to check that the scripts are working correctly.
+**Usage:**
+```bash
+python src/json_to_epub_converter.py
+```
 
+### validation/
 
-### topic-modelling/
+Quality assurance framework for corpus validation and integrity checking.
 
-This directory contains the scripts to run a full topic modelling pipeline with Latent Dirichlet Allocation (LDA) on processed dagens nyheter corpus.
+#### segmentation/
+- `segmentation_validator.py`: Evaluates article segmentation accuracy using statistical metrics
+- `segmentation_sampler.py`: Samples pages for segmentation testing and annotation
+- `annotations/`: Contains annotated datasets for validation
+- `to_annotate/`: Staging area for annotation workflows
+
+#### ocr_validation/
+- `ocr_validator.py`: Estimates OCR quality metrics and accuracy scores
+- `ocr_sampler.py`: Samples text blocks for OCR quality analysis
+- `annotations/`: Contains OCR quality annotations and ground truth data
+
+### tests/
+
+Integration tests to verify end-to-end functionality and data integrity.
+
+**Usage:**
+```bash
+python tests/integration_tests.py
+```
+
+### nlp/
+
+Natural Language Processing pipeline with topic modeling capabilities.
+
+**Processing Pipeline:**
+1. `batch_generator.py`: Generates input batches from curated EPUB corpus
+2. `text_preprocessor.py`: Cleans and preprocesses text data for NLP analysis
+3. `csv_combiner.py`: Merges multiple CSV input files
+4. `file_selector.py`: Selects specific files for processing
+5. `pclda_pipeline.sh`: Runs complete PCLDA topic modeling pipeline
+
+**Usage:**
+```bash
+cd nlp
+python scripts/text_preprocessor.py --input_path input.txt
+bash pclda_pipeline.sh
+```
+
+## Dependencies
+
+This project depends on external repositories:
+- `PCLDA_pipeline`: Required for topic modeling pipeline
+- `PartiallyCollapsedLDA`: LDA implementation
+
+Ensure these are available as sibling directories to this project.
+
+## Data Structure
+
+Expected directory structure:
+```
+corpus/
+├── editions/           # Processed EPUB editions
+├── epubs_json/        # JSON-processed EPUBs
+└── metadata/          # Corpus metadata files
+
+files/
+└── raw_json/          # Raw JSON content files from OCR
+
+src/                   # Core processing pipeline
+validation/            # Quality assurance framework
+├── segmentation/      # Article segmentation validation
+└── ocr_validation/    # OCR quality validation
+nlp/                   # Natural language processing
+└── scripts/          # NLP processing scripts
+tests/                 # Integration tests
+```
 

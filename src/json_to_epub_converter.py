@@ -1,15 +1,33 @@
-import numpy as np,json
-from pathlib import Path
-from lxml import etree
-import zipfile
-from ebooklib import epub
-import uuid
-import base58
+"""
+Process Dagens Nyheter JSON content files to EPUB format.
+
+This module converts JSON content files from Dagens Nyheter corpus into
+structured EPUB files with article segmentation and page break information.
+"""
+
 import hashlib
+import json
 import multiprocessing
 import os
+import uuid
+import zipfile
+
+import base58
+import numpy as np
+from ebooklib import epub
+from lxml import etree
+from pathlib import Path
+
 
 def get_formatted_uuid(seed=None):
+    """Generate a formatted UUID string with optional seed.
+    
+    Args:
+        seed (str, optional): Seed for deterministic UUID generation.
+        
+    Returns:
+        str: Base58-encoded UUID prefixed with 'i-'.
+    """
     if seed is None:
         x = uuid.uuid4()
     else:
@@ -20,75 +38,102 @@ def get_formatted_uuid(seed=None):
     return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
 
 
-def compute_header_treshold(raw_file,quantile=0.80):
-    """ read a content_json, and takes the q'th quantile the distribution of the font size of the words.
+def compute_header_treshold(raw_file, quantile=0.80):
+    """Compute header threshold from font size distribution.
+    
     Args:
-        raw_file : content_json file of dagens nyheter.
-        quantile : the q'th quantile in the interval [0,1]. 
+        raw_file (list): Content JSON data from Dagens Nyheter.
+        quantile (float): Quantile value between 0 and 1 (default: 0.80).
+        
+    Returns:
+        float: Threshold value for header detection.
+        
+    Raises:
+        Exception: If quantile computation fails.
     """
-    size=[]
+    size = []
     for block in raw_file:
-        #if empty content do nothing
-        if block['content']=='':
+        # if empty content do nothing
+        if block['content'] == '':
             pass
-        #otherwise take the sizes of the content
+        # otherwise take the sizes of the content
         else:
-            font_information=block['font']
+            font_information = block['font']
             for font in font_information:
                 size.append(font['size'])
-    #from string to float
-    size=list(map(float,size))
+    # from string to float
+    size = list(map(float, size))
     try:
-        #numpy quantile
-        return np.quantile(size,quantile)
+        # numpy quantile
+        return np.quantile(size, quantile)
     except Exception as e:
         raise Exception(f"An error occurred while computing the header threshold: {str(e)}")
 
 
-def is_article(block,header_treshold):
-    """ reads in a text block inside content_json file, and determines whether it indicates that an article is starting,
-    based on a few heuristics, including the treshold computed from the entire edition. i.e. check if the block contains content that
-    is larger than treshold. All subsequent text blocks that are not articles will be considered as text under the last found
-     article.
+def is_article(block, header_treshold):
+    """Determine if a text block indicates article start.
+    
+    Uses heuristics including font size threshold to identify article headers.
+    
+    Args:
+        block (dict): Text block from content JSON.
+        header_treshold (float): Font size threshold for header detection.
+        
+    Returns:
+        bool: True if block indicates article start, False otherwise.
     """
-    font_information=block['font']
-    num_words_in_block=len(block['content'].split())
+    font_information = block['font']
+    num_words_in_block = len(block['content'].split())
 
-    block_font_sizes=[]
-    block_font_styles=[]
-    block_font_families=[]
+    block_font_sizes = []
+    block_font_styles = []
+    block_font_families = []
     for font in font_information:
         block_font_sizes.append(font['size'])
         block_font_styles.append(font['style'])
         block_font_families.append(font['family'])
         
-    #get top font size
-    max_size=max(list(map(float,block_font_sizes)))
-    #choose a set of criterion to determine whether it is the start of an article
-    #if 'Arial' in block_font_families and max_size>header_treshold and num_words_in_block>30:
-    if max_size>header_treshold and num_words_in_block>47:
+    # get top font size
+    max_size = max(list(map(float, block_font_sizes)))
+    # choose a set of criterion to determine whether it is the start of an article
+    # if 'Arial' in block_font_families and max_size > header_treshold and num_words_in_block > 30:
+    if max_size > header_treshold and num_words_in_block > 47:
         return True
-    else: return False
+    else:
+        return False
 
 
 def page_link_structure(identifier):
-    """ reads in a dagens nyheter edition id and returns the general shape of the image url in betalab.
+    """Get page link structure for Dagens Nyheter edition.
+    
+    Args:
+        identifier (str): Edition identifier.
+        
+    Returns:
+        str: Base URL structure for page images.
     """
     json_dir_path = Path('files/raw_json/')
-    #grab the structure file of the edition id
+    # grab the structure file of the edition id
     structure_file = json_dir_path.rglob(f'{identifier}_structure.json')
 
     for file in structure_file:
         with file.open('r', encoding='utf-8') as f:
             raw_json = json.load(f)
-    link_structure=raw_json[0]['has_part'][0]['has_representation'][1].split('.jp2')[0][:-4]
+    link_structure = raw_json[0]['has_part'][0]['has_representation'][1].split('.jp2')[0][:-4]
 
     return link_structure
 
 
 def json_to_xml(json_content_path):
-    """ reads a json content path, and builds an xml object,
-        by parsing each text block into appropriate elements on the basis of article identification.
+    """Convert JSON content to XML format.
+    
+    Parses text blocks and creates XML structure based on article identification.
+    
+    Args:
+        json_content_path (Path): Path to JSON content file.
+        
+    Returns:
+        bytes: XML string representation of the content.
     """
     with json_content_path.open('r', encoding='utf-8') as f:
         raw_file = json.load(f)
@@ -139,12 +184,13 @@ def json_to_xml(json_content_path):
     return etree.tostring(root, pretty_print=True)
 
 
-def save_epub(epub_content,epub_name,epub_dir):
-    """ creates epub out of an xml object.
+def save_epub(epub_content, epub_name, epub_dir):
+    """Create EPUB file from XML content.
+    
     Args:
-        epub_content : xml etree string
-        epub_name : file name of the resulting epub
-        epub_dir : save directory 
+        epub_content (bytes): XML content as bytes.
+        epub_name (str): Name for the resulting EPUB file.
+        epub_dir (Path): Directory to save the EPUB.
     """
     book = epub.EpubBook()
     book.set_identifier(epub_name)
@@ -181,6 +227,7 @@ def save_epub(epub_content,epub_name,epub_dir):
 
     
 def count_files():
+    """Count and display number of EPUB files per year."""
     years=list(Path('corpus/epubs_json/').glob('*'))
     for year in years:
         n_epubs=len(list(Path(year).glob('*')))
@@ -188,6 +235,11 @@ def count_files():
 
 
 def process_content_file(file):
+    """Process a single content file to create EPUB.
+    
+    Args:
+        file (Path): Path to content JSON file.
+    """
         #build an xml file
         epub_content = json_to_xml(file)
         #grab the name
@@ -203,6 +255,7 @@ def process_content_file(file):
 
 
 def main():
+    """Main function to process all content files to EPUBs."""
     epub_dir_path = Path("corpus/epubs_json/")
     epub_dir_path.mkdir(parents=True, exist_ok=True)
 

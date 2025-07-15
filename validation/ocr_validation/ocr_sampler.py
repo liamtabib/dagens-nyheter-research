@@ -43,7 +43,7 @@ def main(args):
     digest = int.from_bytes(digest, "big") % (2**32)
 
     try:
-        to_annotate_dir='quality-control/ocr-estimation/to-annotate' #CHANGE THIS
+        to_annotate_dir='validation/ocr_validation/to-annotate' #CHANGE THIS
         os.makedirs(to_annotate_dir)
     except FileExistsError:
         print('this script has already been run and annotations are started')

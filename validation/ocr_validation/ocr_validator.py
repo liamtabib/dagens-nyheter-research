@@ -87,7 +87,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--path_goldstandard", type=str, default = 'quality-control/ocr-estimation/annotations/sample.csv')
+    parser.add_argument("--path_goldstandard", type=str, default = 'validation/ocr_validation/annotations/sample.csv')
     args = parser.parse_args()
     main(args)
 

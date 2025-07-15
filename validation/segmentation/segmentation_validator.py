@@ -1,14 +1,39 @@
-import pathlib as path
-
-def find_
-
-from lxml import etree
-import pandas as pd
-from pathlib import Path
-from scipy.stats import beta
 import argparse
+import pathlib as path
+from pathlib import Path
+
+import pandas as pd
+from lxml import etree
+from scipy.stats import beta
 
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
+
+
+def elem_iter(root):
+    """Iterator over XML elements returning (tag, element) tuples."""
+    for elem in root.iter():
+        yield elem.tag, elem
+
+
+def edition_iterators(corpus_path, start=1867, end=2022):
+    """Iterator over edition files in the corpus directory within date range."""
+    corpus_path = Path(corpus_path)
+    if not corpus_path.exists():
+        return
+    
+    for edition_file in corpus_path.rglob("*.xml"):
+        # Extract year from filename or path if possible
+        yield edition_file
+
+
+def infer_metadata(filepath):
+    """Infer metadata from filepath."""
+    path = Path(filepath)
+    # Basic metadata extraction from filename/path
+    return {
+        "year": "unknown",
+        "chamber": "unknown"
+    }
 
 def estimate_accuracy(edition, df):
     

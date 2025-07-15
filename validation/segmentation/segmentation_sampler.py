@@ -72,7 +72,7 @@ def main(args):
     edition_df = get_page_counts()
 
     try:
-        to_annotate_dir='quality-control/to_annotate'
+        to_annotate_dir='validation/segmentation/to_annotate'
         os.makedirs(to_annotate_dir)
     except FileExistsError:
         print('this script has already been run and annotations are started')
