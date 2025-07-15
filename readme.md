@@ -1,6 +1,6 @@
 # historical-docs-processor
 
-The curation and analysis of Dagens Nyheter corpus for historical newspaper research.
+Processes messy newspaper OCR data into clean, structured datasets for analysis.
 
 ## Setup
 
