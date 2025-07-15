@@ -1,4 +1,4 @@
-# Dagens Nyheter Research
+# historical-docs-processor
 
 The curation and analysis of Dagens Nyheter corpus for historical newspaper research.
 
@@ -51,20 +51,20 @@ Integration tests to verify end-to-end functionality and data integrity.
 python tests/integration_tests.py
 ```
 
-### nlp/
+### transforms/
 
-Natural Language Processing pipeline with topic modeling capabilities.
+Data transformation pipeline with topic modeling capabilities.
 
 **Processing Pipeline:**
 1. `batch_generator.py`: Generates input batches from curated EPUB corpus
-2. `text_preprocessor.py`: Cleans and preprocesses text data for NLP analysis
+2. `text_preprocessor.py`: Cleans and preprocesses text data for analysis
 3. `csv_combiner.py`: Merges multiple CSV input files
 4. `file_selector.py`: Selects specific files for processing
 5. `pclda_pipeline.sh`: Runs complete PCLDA topic modeling pipeline
 
 **Usage:**
 ```bash
-cd nlp
+cd transforms
 python scripts/text_preprocessor.py --input_path input.txt
 bash pclda_pipeline.sh
 ```
@@ -93,8 +93,8 @@ src/                   # Core processing pipeline
 validation/            # Quality assurance framework
 ├── segmentation/      # Article segmentation validation
 └── ocr_validation/    # OCR quality validation
-nlp/                   # Natural language processing
-└── scripts/          # NLP processing scripts
+transforms/            # Data transformation pipeline
+└── scripts/          # Text processing scripts
 tests/                 # Integration tests
 ```
 
