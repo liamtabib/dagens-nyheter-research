@@ -1,6 +1,6 @@
 # Historical Document Processor
 
-tool that takes raw newspaper scans, validates the text quality, and builds clean datasets. This work is now free to use and is useful for researchers working with historical print-first documents, but can also be modified to pre-process a knowledge base for LLM/RAG apps.
+Tool that takes raw document scans, validates the text quality, and builds clean datasets. This work is now free to use and is useful for researchers working with historical print-first documents, but can also be modified to pre-process a knowledge base for LLM/RAG apps.
 
 ### Features
 
